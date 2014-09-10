@@ -5,6 +5,7 @@ source 'https://rubygems.org'
 
 gem 'nokogiri'
 gem 'bourbon'
+gem 'neat', '1.5.1'
 
 gem 'omniauth'
 gem 'omniauth-facebook'
