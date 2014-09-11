@@ -1,1 +1,9 @@
-%h1 Hot Or Not: Home Edition
+.logo-container
+  %h1.main-logo Hot Or Not: Home Edition
+-# .bg-container
+-#   %img.bg-pic= image_tag('home-bg1.jpg')
+.social-container
+  - unless user_signed_in?
+    %h3.social Sign in with:
+    %img= link_to image_tag('facebook.png'), user_omniauth_authorize_path(:facebook), :class => "social", :id => "facebook"
+    %img= link_to image_tag('twitter.png'), user_omniauth_authorize_path(:twitter), :class => "social", :id => "twitter"

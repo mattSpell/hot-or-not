@@ -1,10 +1,32 @@
-%ul
-  %nav
-    - if user_signed_in?
-      %li Signed in as: #{current_user.email}
-      %li= link_to "Sign Out", destroy_user_session_path, :method => :delete
-    - else
-      %li= link_to "Sign In", new_user_session_path
-      %li= link_to "Sign Up", new_user_registration_path
-      %li= link_to image_tag('facebook.png'), user_omniauth_authorize_path(:facebook), :class => "social", :id => "facebook"
-      %li= link_to image_tag('twitter.png'), user_omniauth_authorize_path(:twitter), :class => "social", :id => "twitter"
+%header.navigation
+  .navigation-wrapper
+    %a.logo{:href => "/"}
+      %img= image_tag('home-icon-square-red.png')
+      %img= image_tag('home-icon-blue.png')
+    %a#js-mobile-menu.navigation-menu-button{:href => ""} MENU
+    .nav
+      %ul#navigation-menu
+        - if user_signed_in?
+          - if current_user.name
+            %li.nav-link.name Signed in as: #{current_user.name}
+          - else
+            %li.nav-link.name Signed in as: #{current_user.email}
+          %li.nav-link
+            %a= link_to "Sign Out", destroy_user_session_path, :method => :delete
+        - else
+          %a.sign-up{:href => new_user_registration_path} Sign Up
+          %a.sign-up{:href => new_user_session_path} Sign In
+        -# %li.nav-link
+        -#   %a{:href => "javascript:void(0)"} About
+        -# %li.nav-link
+
+    -# .navigation-tools
+      -# - if user_signed_in?
+      -#   - if current_user.name
+      -#     %p.name Signed in as: #{current_user.name}
+      -#   - else
+      -#     %p.name Signed in as: #{current_user.email}
+      -#   %a= link_to "Sign Out", destroy_user_session_path, :method => :delete
+      -# - else
+      -#   %a.sign-up{:href => new_user_registration_path} Sign Up
+      -#   %a.sign-up{:href => new_user_session_path} Sign In
