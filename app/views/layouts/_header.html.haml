@@ -6,4 +6,5 @@
     - else
       %li= link_to "Sign In", new_user_session_path
       %li= link_to "Sign Up", new_user_registration_path
-      %li= link_to "Sign In with Facebook", user_omniauth_authorize_path(:facebook)
+      %li= link_to image_tag('facebook.png'), user_omniauth_authorize_path(:facebook), :class => "social", :id => "facebook"
+      %li= link_to image_tag('twitter.png'), user_omniauth_authorize_path(:twitter), :class => "social", :id => "twitter"
