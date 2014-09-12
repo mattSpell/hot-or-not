@@ -1,7 +1,15 @@
 .logo-container
-  %h1.main-logo Hot Or Not: Home Edition
+  %h1.main-logo Hot Or Not
+  %h1.main-logo-second-line Nashville Home Edition
 -# .bg-container
 -#   %img.bg-pic= image_tag('home-bg1.jpg')
+
+.button-container
+  - if user_signed_in?
+    %a= link_to "Play", games_path
+    -# %a= link_to "Favorites", favorites_path
+
+
 .social-container
   - unless user_signed_in?
     %h3.social Sign in with:

@@ -13,6 +13,7 @@ gem 'omniauth-facebook'
 gem 'omniauth-twitter'
 gem 'devise'
 gem 'haml'
+gem 'pry'
 
 # Bundle edge Rails instead: gem 'rails', github: 'rails/rails'
 gem 'rails', '4.1.4'

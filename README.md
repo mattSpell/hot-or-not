@@ -1,4 +1,4 @@
-#Hot or Not: Home Edition
+#Hot or Not: Nashville Home Edition
 
 This is a real estate game where you choose Nashville home listings that you think are hot or not.
 The ones that you mark as "hot" get saved as favorites. You can then edit those and email them to your realtor
