@@ -15,6 +15,7 @@ gem 'devise'
 gem 'haml'
 gem 'pry'
 
+
 # Bundle edge Rails instead: gem 'rails', github: 'rails/rails'
 gem 'rails', '4.1.4'
 gem 'pg'
@@ -41,6 +42,7 @@ gem 'spring',        group: :development
 
 group :development, :test do
   gem 'rspec-rails'
+  gem 'database_cleaner'
 end
 
 group :test do
