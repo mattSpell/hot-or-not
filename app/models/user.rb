@@ -1,4 +1,6 @@
 class User < ActiveRecord::Base
+  has_many :viewed_homes
+  has_many :homes, through: :viewed_homes
   # Include default devise modules. Others available are:
   # :confirmable, :lockable, :timeoutable
   devise :database_authenticatable, :registerable,
