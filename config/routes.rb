@@ -3,6 +3,8 @@ Rails.application.routes.draw do
 
   root "home#index"
   resources :games, only: [:index]
+  get '/hot' => 'games#hot'
+  get '/not' => 'games#not'
 
 
   # devise_scope :user do

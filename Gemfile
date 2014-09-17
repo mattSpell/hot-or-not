@@ -47,9 +47,11 @@ end
 
 group :test do
   gem 'capybara'
+  gem 'capybara-webkit'
   gem 'fabrication'
   gem 'launchy'
   gem 'shoulda'
+  gem 'poltergeist'
 end
 # Use ActiveModel has_secure_password
 # gem 'bcrypt', '~> 3.1.7'

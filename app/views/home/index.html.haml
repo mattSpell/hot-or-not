@@ -6,8 +6,8 @@
 
 .button-container
   - if user_signed_in?
-    %a= link_to "Play", games_path
-    -# %a= link_to "Favorites", favorites_path
+    %a= link_to "Play", games_path, :class => "play"
+    -# %a.favs= link_to "Favorites", favorites_path
 
 
 .social-container
