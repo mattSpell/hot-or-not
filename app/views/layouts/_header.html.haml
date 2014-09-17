@@ -8,9 +8,9 @@
       %ul#navigation-menu
         - if user_signed_in?
           - if current_user.name
-            %li.nav-link.name Signed in as: #{current_user.name}
+            %li.nav-link.name #{current_user.name}
           - else
-            %li.nav-link.name Signed in as: #{current_user.email}
+            %li.nav-link.name #{current_user.email}
           %li.nav-link
             %a= link_to "Sign Out", destroy_user_session_path, :method => :delete
         - else

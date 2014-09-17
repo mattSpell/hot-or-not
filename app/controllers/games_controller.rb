@@ -1,7 +1,8 @@
 require 'uri'
 class GamesController < ApplicationController
   def index
-    @home = Home.get_next_home(current_user)
+    # @home = Home.get_next_home(current_user)
+    @home = Home.first
   end
 
   def scrape_homes

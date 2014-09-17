@@ -6,7 +6,9 @@ feature "user plays the game" do
     click_on "facebook"
     click_on "Play"
     expect(page).to have_css("img.thumbnail")
-    
+    expect(page).to have_css("h3.list-price")
+    expect(page).to have_css("p.address")
+    expect(page).to have_css("p.desc")
 
   end
 end
