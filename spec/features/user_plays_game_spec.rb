@@ -20,6 +20,18 @@ feature "user plays the game" do
     expect(page).to have_css("p.desc")
   end
 
+  scenario "user views the list of homes", js: :true do
+    sign_into_facebook_as "joe"
+    visit '/'
+    click_on "facebook"
+    click_on "Play"
+    click_on "Not"
+    expect(page).to have_text("Local Hot List")
+    expect(page).to have_css("img.list-pic")
+    expect(page).to have_css(".list-homes-container")
+    expect(page).to have_css(".home-list")
+  end
+
   scenario "user clicks the hot button", js: :true do
     sign_into_facebook_as "joe"
     visit '/'

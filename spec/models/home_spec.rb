@@ -33,4 +33,16 @@ RSpec.describe Home, :type => :model do
     end
   end
 
+  describe "get_unseen_homes" do
+    it "should get all unseen homes" do
+      unseen_homes = Home.get_unseen_homes(user)
+      expect(unseen_homes.count).to eq 3
+      Home.update_home(user, true, home1.id)
+      unseen_homes = Home.get_unseen_homes(user)
+      expect(unseen_homes.count).to eq 2
+      expect(unseen_homes).to include(home2)
+      expect(unseen_homes).to include(home3)
+    end
+  end
+
 end
