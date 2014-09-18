@@ -1,3 +1,5 @@
+@import "partials/mixins";
+
 body{
   @include background-image(url("bg_2x.jpg"));
   height: 780px;
@@ -5,6 +7,14 @@ body{
   background-size: cover;
   -moz-background-size: cover;
   background-position: center;
+}
+
+#navigation-menu .nav-link a.logout{
+  color: #333333;
+}
+
+#navigation-menu .nav-link a.logout:hover{
+  color: white;
 }
 
 .logo-container{
@@ -22,8 +32,25 @@ body{
   margin: 0px;
 }
 
+.button-container{
+  @include outer-container;
+  text-align: center;
+  margin-top: 8em;
+  li{
+    display: inline;
+    margin: 0 2em 0 2em;
+    font-size: 2em;
+    a{
+      @include clean-gray;
+    }
+    a.play{
+      padding: 20px 65px;
+    }
+  }
+}
+
 .social-container{
-  margin: 22% 0 0 70%;
+  margin: 15% 0 0 70%;
 
   img{
     @include span-columns(3);

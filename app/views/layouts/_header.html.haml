@@ -12,7 +12,7 @@
           - else
             %li.nav-link.name #{current_user.email}
           %li.nav-link
-            %a= link_to "Sign Out", destroy_user_session_path, :method => :delete
+            %a= link_to "Sign Out", destroy_user_session_path, :method => :delete, :class => "logout"
         - else
           %a.sign-up{:href => new_user_registration_path} Sign Up
           %a.sign-up{:href => new_user_session_path} Sign In
