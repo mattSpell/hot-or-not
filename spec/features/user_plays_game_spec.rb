@@ -19,4 +19,38 @@ feature "user plays the game" do
     expect(page).to have_css("p.address")
     expect(page).to have_css("p.desc")
   end
+
+  scenario "user clicks the hot button", js: :true do
+    sign_into_facebook_as "joe"
+    visit '/'
+    click_on "facebook"
+    click_on "Play"
+    click_on "Hot"
+    expect(page).to have_text("$410,000")
+  end
+
+  scenario "user clicks the not button", js: :true do
+    sign_into_facebook_as "joe"
+    visit '/'
+    click_on "facebook"
+    click_on "Play"
+    click_on "Not"
+    expect(page).to have_text("$410,000")
+  end
+
+  scenario "user completes the game", js: :true do
+    sign_into_facebook_as "joe"
+    visit '/'
+    click_on "facebook"
+    click_on "Play"
+    expect(page).to have_text("$210,000")
+    click_on "Hot"
+    expect(page).to have_text("$410,000")
+    click_on "Not"
+    expect(page).to have_text("$275,000")
+    click_on "Hot"
+    expect(page).to have_text("You've completed the game!")
+    expect(page).to have_css("a.favorites")
+  end
+
 end

@@ -1,0 +1,33 @@
+<div class="inner-container">
+  <% if @home.present? %>
+    <img class="thumbnail" src="<%= @home.photo_url %>"/>
+    <h3 class="list-price">
+      <%= @home.list_price %>
+    </h3>
+    <p class="address">
+      <%= @home.address %>
+    </p>
+    <p class="desc">
+      <%= @home.description %>
+    </p>
+  </div>
+  <div class="controls-container">
+    <ul>
+      <li>
+        <%= link_to image_tag('hot.svg'),
+         hot_path(home_id: @home.id),
+          :class => "controls", remote: true %>
+      </li>
+      <li>
+        <%= link_to image_tag('not.png'),
+         not_path(home_id: @home.id),
+          :class => "controls", remote: true %>
+      </li>
+    </ul>
+  <% else %>
+    <h2>You've completed the game!</h2>
+    <div class="fav-container">
+      <%= link_to "Favorites", '#', :class => "favorites" %>
+    </div>
+  <% end %>
+</div>

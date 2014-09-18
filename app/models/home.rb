@@ -6,13 +6,11 @@ class Home < ActiveRecord::Base
   def self.update_home(user, fav, home_id)
     home = Home.where(:id => home_id).first
     thing = ViewedHome.create(home_id: home.id, user_id: user.id, favorite: fav)
-    next_home = get_next_home(user)
-    return next_home
+    get_next_home(user)
   end
 
   def self.get_next_home(user)
-    home = get_unseen_homes(user).first
-    return home
+    get_unseen_homes(user).first
   end
 
   def self.get_unseen_homes(user)
