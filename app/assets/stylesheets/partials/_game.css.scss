@@ -2,14 +2,15 @@
   @include outer-container;
   margin-top: 5%;
   height: 60%;
-  .inner-container{
+  .game-play-container{
+    @include span-columns(6);
     background-color: white;
-    width: 62%;
     height: 98%;
     border-radius: 20px;
     padding-top: 8%;
     margin: 0 auto 0 auto;
     text-align: center;
+
     h3.list-price{
       margin: 1em 0 1em 0;
     }
@@ -31,9 +32,8 @@
 }
 
 .controls-container{
-  @include outer-container;
   text-align: center;
-  margin-top: 1%;
+  margin-top: 8em;
   li{
     display: inline;
     margin: 0 4% 0 4%;
@@ -43,5 +43,14 @@
     width: 6em;
     height: 6em;
     margin: 0 auto 0 auto;
+    border-radius: 50%;
+  }
+  a.hot:hover{
+    // background-color: rgb(186, 21, 23);
+    background-color: white;
+  }
+  a.not:hover{
+    // background-color: rgb(60, 141, 197);
+    background-color: white;
   }
 }

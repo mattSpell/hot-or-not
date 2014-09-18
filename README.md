@@ -12,3 +12,4 @@ if you're serious about house hunting or just play the game for fun!
 - Nokogiri
 - open-uri
 - Sass/Bourbon/Bitters/Neat
+- OmniAuth

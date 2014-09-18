@@ -2,10 +2,12 @@ require 'uri'
 class GamesController < ApplicationController
   def index
     @home = Home.get_next_home(current_user)
+    @homes_list = get_homes_list
   end
 
   def hot
     @home = Home.update_home(current_user, true, params[:home_id])
+    get_homes_list
     respond_to do |format|
       format.js
       format.html
@@ -14,11 +16,14 @@ class GamesController < ApplicationController
 
   def not
     @home = Home.update_home(current_user, false, params[:home_id])
+    get_homes_list
     respond_to do |format|
       format.js
       format.html
     end
   end
+
+  private
 
   def scrape_homes
     @home_scrape = HomeScraper.
@@ -30,7 +35,10 @@ class GamesController < ApplicationController
     end
   end
 
-  # private
+  def get_homes_list
+    @homes_list = Home.get_unseen_homes(current_user)
+  end
+
   # def home_params
   #   params.require(:home).permit(:id)
   # end

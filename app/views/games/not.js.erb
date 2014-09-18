@@ -1,1 +1,2 @@
-$(".game").html("<%= escape_javascript(render partial: 'game_play', locals: { home: @home } ) %>");
+$(".game-play-container").html("<%= escape_javascript(render partial: 'game_play', locals: { home: @home } ) %>");
+$(".list-homes-container").html("<%= escape_javascript(render partial: 'list_homes', locals: { homes_list: @homes_list } ) %>");

@@ -1,0 +1,16 @@
+.list-homes-container{
+  @include span-columns(6);
+  background-color: white;
+  // height: 98%;
+  border-radius: 20px;
+  padding: 2em;
+  text-align: center;
+}
+h2{
+  margin-bottom: 1em;
+}
+.list-pic{
+  height: 6em;
+  width: 6em;
+  border-radius: 50%;
+}

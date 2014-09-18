@@ -5,7 +5,7 @@ class Home < ActiveRecord::Base
 
   def self.update_home(user, fav, home_id)
     home = Home.where(:id => home_id).first
-    thing = ViewedHome.create(home_id: home.id, user_id: user.id, favorite: fav)
+    ViewedHome.create(home_id: home.id, user_id: user.id, favorite: fav)
     get_next_home(user)
   end
 

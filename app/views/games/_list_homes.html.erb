@@ -1,0 +1,6 @@
+<div class="home-list">
+  <h2>Local Hot List</h2>
+  <% @homes_list.each do |home| %>
+    <img class="list-pic" src="<%= home.photo_url %>"/>
+  <% end %>
+</div>
