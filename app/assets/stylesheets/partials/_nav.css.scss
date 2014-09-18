@@ -131,6 +131,14 @@ header.navigation {
     padding-bottom: 3px;
   }
 
+  #navigation-menu .nav-link a.logout{
+    color: #333333;
+  }
+
+  #navigation-menu .nav-link a.logout:hover{
+    color: white;
+  }
+
   // Sub menus
 
   li.more.nav-link {

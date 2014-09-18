@@ -21,6 +21,12 @@
       margin: 0 auto 3% auto;
       border-radius: 10px;
     }
+    .fav-container{
+      margin-top: 6em;
+    }
+    .favorites{
+      @include clean-gray;
+    }
   }
 }
 
