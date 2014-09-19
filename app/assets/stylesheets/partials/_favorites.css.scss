@@ -1,6 +1,10 @@
+@import "partials/mixins";
 .favorites-container{
   @include outer-container;
   text-align: center;
+  h1.favs{
+    // color: white;
+  }
 
   .fav-box{
     display: inline-block;
@@ -8,5 +12,15 @@
     padding: 1.5em;
     margin: 1em;
     border-radius: 20px;
+    height: 14em;
+    h1{
+      margin: 0.67em 0 1.2em 0;
+    }
+  }
+  a.play{
+    @include thoughtbot;
+    margin: 4em;
+    padding-left: 4em;
+    padding-right: 4em;
   }
 }

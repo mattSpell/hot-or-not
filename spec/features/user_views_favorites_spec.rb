@@ -1,4 +1,13 @@
 feature "User views their favorites" do
+  scenario "no favorites" do
+    sign_into_facebook_as "joe"
+    visit '/'
+    click_on "facebook"
+    click_on "Favorites"
+    expect(page).to have_text("You don't have any favorites yet!")
+    expect(page).to have_css("a.play")
+  end
+
   let!(:home1){ Fabricate(:home) }
   let!(:home2){ Fabricate(:home,
     photo_url: "http://photos1.zillowstatic.com/p_g/IS1jju3rxsihnx1000000000.jpg",

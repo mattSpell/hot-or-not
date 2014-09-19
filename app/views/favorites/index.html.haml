@@ -1,8 +1,9 @@
 .favorites-container
-  %h1 Favorites
+  %h1.favs Favorites
   - if @favorites.empty?
-    %h1 You don't have any favorites yet!
-    = link_to "Play", games_path, :class => "play"
+    .fav-box
+      %h1 You don't have any favorites yet!
+      = link_to "Play", games_path, :class => "play"
   - else
     - @favorites.each do |fav|
       .fav-box

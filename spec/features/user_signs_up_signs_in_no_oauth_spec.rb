@@ -15,7 +15,7 @@ feature "User signs up and signs in with regular email address and password" do
     fill_in "Password", with: "password1"
     fill_in "Password confirmation", with: "password1"
     click_button "Sign up"
-    expect(current_path).to eq root_path
+    expect(current_path).to eq games_path
     expect(page).to have_content "Welcome! You have signed up successfully."
     expect(page).to have_content "matt@example.com"
     expect(page).not_to have_content "Sign Up"
