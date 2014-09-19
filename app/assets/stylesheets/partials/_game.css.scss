@@ -6,7 +6,7 @@
     @include span-columns(6);
     background-color: white;
     height: 98%;
-    border-radius: 20px;
+    border-radius: 5px;
     padding-top: 8%;
     margin: 0 auto 0 auto;
     text-align: center;
@@ -20,7 +20,7 @@
     img.thumbnail{
       display: block;
       margin: 0 auto 3% auto;
-      border-radius: 10px;
+      border-radius: 5px;
     }
     .fav-container{
       margin-top: 6em;

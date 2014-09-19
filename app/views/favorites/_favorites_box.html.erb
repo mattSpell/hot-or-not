@@ -1,0 +1,23 @@
+<h1 class="favs">Favorites</h1>
+<% if @favorites.empty? %>
+  <div class="fav-box">
+    <h1>You don't have any favorites yet!</h1>
+    <%= link_to "Play", games_path, :class => "play" %>
+  </div>
+<% else %>
+  <% @favorites.each do |fav| %>
+    <div class="fav-box">
+      <img class="thumbnail" src="<%= fav.photo_url %>"/>
+      <%= link_to "X", favorite_path(fav), :method => :delete, remote: true %>
+      <h3 class="list-price">
+        <%= fav.list_price %>
+      </h3>
+      <p class="address">
+        <%= fav.address %>
+      </p>
+      <p class="desc">
+        <%= fav.description %>
+      </p>
+    </div>
+  <% end %>
+<% end %>

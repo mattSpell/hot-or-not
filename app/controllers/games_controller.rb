@@ -1,5 +1,6 @@
 require 'uri'
 class GamesController < ApplicationController
+  respond_to :html, :js
   def index
     @home = Home.get_next_home(current_user)
     @homes_list = get_homes_list
@@ -8,19 +9,11 @@ class GamesController < ApplicationController
   def hot
     @home = Home.update_home(current_user, true, params[:home_id])
     get_homes_list
-    respond_to do |format|
-      format.js
-      format.html
-    end
   end
 
   def not
     @home = Home.update_home(current_user, false, params[:home_id])
     get_homes_list
-    respond_to do |format|
-      format.js
-      format.html
-    end
   end
 
   private

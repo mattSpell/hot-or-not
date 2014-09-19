@@ -1,6 +1,7 @@
 Rails.application.routes.draw do
   devise_for :users, :controllers => { :omniauth_callbacks => "users/omniauth_callbacks" }
-  get '/favorites' => 'favorites#index'
+  # get '/favorites' => 'favorites#index'
+  resources :favorites, only: [:index, :destroy]
 
   root "home#index"
   resources :games, only: [:index]

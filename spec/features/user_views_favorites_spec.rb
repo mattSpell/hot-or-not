@@ -7,7 +7,7 @@ feature "User views their favorites" do
     expect(page).to have_text("You don't have any favorites yet!")
     expect(page).to have_css("a.play")
   end
-
+  let!(:user){ Fabricate(:user) }
   let!(:home1){ Fabricate(:home) }
   let!(:home2){ Fabricate(:home,
     photo_url: "http://photos1.zillowstatic.com/p_g/IS1jju3rxsihnx1000000000.jpg",
@@ -31,4 +31,21 @@ feature "User views their favorites" do
     expect(page).to have_css(".address")
     expect(page).to have_css(".desc")
   end
+
+  scenario "user deletes favorites", js: :true do
+    sign_into_facebook_as "joe"
+    visit '/'
+    click_on "facebook"
+    click_on "Play"
+    click_on "Hot"
+    expect(page).to have_content("210,000")
+    click_on "Favorites"
+    expect(page).to have_content("210,000")
+
+    click_on "X"
+
+    expect(page).not_to have_content("210,000")
+
+  end
+
 end
