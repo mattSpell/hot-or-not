@@ -43,6 +43,7 @@ gem 'spring',        group: :development
 group :development, :test do
   gem 'rspec-rails'
   gem 'database_cleaner'
+  gem 'foreman'
 end
 
 group :test do

@@ -44,8 +44,14 @@ body{
 .social-container{
   margin: 15% 0 0 70%;
 
+  a#facebook{
+    margin-right: 1em;
+  }
   img{
     @include span-columns(3);
+  }
+  img:last-child{
+    margin-right: 0.5em;
   }
 }
 .social{
