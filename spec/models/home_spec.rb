@@ -4,8 +4,8 @@ RSpec.describe Home, :type => :model do
   it { should have_many :viewed_homes }
 
   let!(:user){ Fabricate(:user) }
-  let!(:viewed_home){ Fabricate(:viewed_home, home_id: 8, user_id: user.id, favorite: true) }
   let!(:home1){ Fabricate(:home) }
+  let!(:viewed_home){ Fabricate(:viewed_home, home_id: home1.id, user_id: user.id, favorite: true) }
   let!(:home2){ Fabricate(:home,
     photo_url: "http://photos1.zillowstatic.com/p_g/IS1jju3rxsihnx1000000000.jpg",
     list_price: "$410,000", address: "1510 Demonbreun St #510, Nashville, TN 37203",
@@ -36,12 +36,21 @@ RSpec.describe Home, :type => :model do
   describe "get_unseen_homes" do
     it "should get all unseen homes" do
       unseen_homes = Home.get_unseen_homes(user)
-      expect(unseen_homes.count).to eq 3
-      Home.update_home(user, true, home1.id)
-      unseen_homes = Home.get_unseen_homes(user)
       expect(unseen_homes.count).to eq 2
-      expect(unseen_homes).to include(home2)
+      Home.update_home(user, true, home2.id)
+      unseen_homes = Home.get_unseen_homes(user)
+      expect(unseen_homes.count).to eq 1
       expect(unseen_homes).to include(home3)
+    end
+  end
+
+  describe "get_favorites" do
+    it "should get all the users favorites" do
+      favs = Home.get_favorites(user)
+      expect(favs.count).to eq 1
+      Home.update_home(user, true, home1.id)
+      favs = Home.get_favorites(user)
+      expect(favs.count).to eq 2
     end
   end
 

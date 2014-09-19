@@ -7,7 +7,7 @@
 # Password should be encrypted in Database.
 # User account should be saved in Database
 
-feature "Users signs up and signs in with regular email address and password" do
+feature "User signs up and signs in with regular email address and password" do
   scenario "Happy Path, Sign Up and subsequent Sign In" do
     visit '/'
     click_link "Sign Up"

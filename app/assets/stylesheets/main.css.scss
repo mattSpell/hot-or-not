@@ -3,7 +3,7 @@
 body{
   @include background-image(url("bg_2x.jpg"));
   height: 780px;
-  background-repeat: no-repeat;
+  // background-repeat: no-repeat;
   background-size: cover;
   -moz-background-size: cover;
   background-position: center;

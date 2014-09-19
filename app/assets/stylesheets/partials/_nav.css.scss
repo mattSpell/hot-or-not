@@ -262,6 +262,13 @@ header.navigation {
     padding-left: $navigation-padding/2;
     clear: both;
     background: #505050;
+    margin-top: 1.15em;
+    a.logout{
+      color: #333333;
+    }
+    a.logout:hover{
+      color: white;
+    }
 
     @include media($large-screen) {
       background: transparent;

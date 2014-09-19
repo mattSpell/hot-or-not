@@ -19,4 +19,10 @@ class Home < ActiveRecord::Base
       where("viewed_homes.id IS NULL").to_a
   end
 
+  def self.get_favorites(user)
+    Home.joins("LEFT OUTER JOIN (SELECT * FROM viewed_homes WHERE user_id = #{user.
+      id}) AS viewed_homes ON homes.id = viewed_homes.home_id").
+      where("viewed_homes.favorite = true").to_a
+  end
+
 end

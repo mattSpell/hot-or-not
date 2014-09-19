@@ -1,0 +1,12 @@
+.favorites-container
+  %h1 Favorites
+  - if @favorites.empty?
+    %h1 You don't have any favorites yet!
+    = link_to "Play", games_path, :class => "play"
+  - else
+    - @favorites.each do |fav|
+      .fav-box
+        %img{:src=>fav.photo_url, :class => "thumbnail"}
+        %h3.list-price= fav.list_price
+        %p.address= fav.address
+        %p.desc= fav.description

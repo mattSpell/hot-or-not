@@ -6,7 +6,7 @@
   - if user_signed_in?
     %ul
       %li= link_to "Play", games_path, :class => "play"
-      %li= link_to "Favorites", '#', :class => "favorites"
+      %li= link_to "Favorites", favorites_path, :class => "favorites"
 
 .social-container
   - unless user_signed_in?
