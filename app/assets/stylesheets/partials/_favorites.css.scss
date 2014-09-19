@@ -5,14 +5,16 @@
   h1.favs{
     // color: white;
   }
-
+  img.thumbnail{
+    border-radius: 10px;
+  }
   .fav-box{
     display: inline-block;
     background-color: white;
     padding: 1.5em;
     margin: 1em;
     border-radius: 20px;
-    height: 14em;
+    // height: 14em;
     h1{
       margin: 0.67em 0 1.2em 0;
     }
