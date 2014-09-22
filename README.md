@@ -6,6 +6,10 @@ The ones that you mark as "hot" get saved as favorites.
 You can then edit those and email them to your realtor
 if you're serious about house hunting or just play the game for fun!
 
+### Usage:
+Clone this repo, copy the config/application.yml.example, rename it to
+application.yml and put in your facebook/twitter keys/secrets.
+
 ##Technologies used:
 - Ruby 2.1.2
 - AJAX

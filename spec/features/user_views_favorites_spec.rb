@@ -41,11 +41,7 @@ feature "User views their favorites" do
     expect(page).to have_content("210,000")
     click_on "Favorites"
     expect(page).to have_content("210,000")
-
     click_on "X"
-
     expect(page).not_to have_content("210,000")
-
   end
-
 end
