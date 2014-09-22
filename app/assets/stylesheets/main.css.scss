@@ -1,7 +1,7 @@
 @import "partials/mixins";
 
 body{
-  @include background-image(url("bg_2x.jpg"));
+  @include background-image(asset-url("bg_2x.jpg"));
   height: 780px;
   // background-repeat: no-repeat;
   background-size: cover;
