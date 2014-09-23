@@ -2,6 +2,7 @@
 
 body{
   @include background-image(asset-url("bg_2x.jpg"));
+  background-attachment: fixed;
   height: 780px;
   // background-repeat: no-repeat;
   background-size: cover;
@@ -33,13 +34,17 @@ body{
   margin-top: 8em;
   li{
     display: inline;
-    margin: 0 2em 0 2em;
+    // margin: 0 2em 0 2em;
     font-size: 2em;
     a{
-      @include clean-gray;
+      @include thoughtbot;
     }
     a.play{
       padding: 20px 65px;
+      margin-right: 1em;
+    }
+    a.favorites{
+      padding: 20px 41px;
     }
   }
 }

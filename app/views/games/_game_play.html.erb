@@ -4,7 +4,7 @@
     <h3 class="list-price">
       <%= @home.list_price %>
     </h3>
-    <p class="address">
+    <p class="addy">
       <%= @home.address %>
     </p>
     <p class="desc">
@@ -27,7 +27,7 @@
     <% else %>
       <h2>You've completed the game!</h2>
       <div class="fav-container">
-        <%= link_to "Favorites", favorites_path, :class => "favorites" %>
+        <%= link_to "Favorites", favorites_path, :class => "play" %>
       </div>
     <% end %>
   </div>

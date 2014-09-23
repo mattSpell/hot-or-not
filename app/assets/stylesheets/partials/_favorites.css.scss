@@ -2,27 +2,42 @@
 .favorites-container{
   @include outer-container;
   text-align: center;
-  h1.favs{
-    // color: white;
+}
+h1.favs{
+  // color: white;
+}
+img.thumbnail{
+  border-radius: 5px;
+}
+.fav-box{
+  display: inline-block;
+  background-color: white;
+  padding: 1.5em;
+  margin: 1em;
+  border-radius: 5px;
+  h1{
+    margin: 0.67em 0 1.2em 0;
   }
-  img.thumbnail{
-    border-radius: 5px;
-  }
-  .fav-box{
-    display: inline-block;
-    background-color: white;
-    padding: 1.5em;
-    margin: 1em;
-    border-radius: 5px;
-    // height: 14em;
-    h1{
-      margin: 0.67em 0 1.2em 0;
-    }
-  }
-  a.play{
-    @include thoughtbot;
-    margin: 4em;
-    padding-left: 4em;
-    padding-right: 4em;
-  }
+}
+a.play{
+  @include thoughtbot;
+  margin: 4em;
+  padding-left: 4em;
+  padding-right: 4em;
+}
+a.nuke{
+  position: absolute;
+  height: 1.5em;
+  width: 1.5em;
+  margin-left: 0.4em;
+  font-weight: bold;
+  background-color: black;
+  border-radius: 5px;
+  color: white;
+}
+a.nuke:hover{
+  color: red;
+}
+.address{
+  width: 16em;
 }

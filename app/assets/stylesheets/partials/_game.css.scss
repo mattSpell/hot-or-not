@@ -14,7 +14,7 @@
     h3.list-price{
       margin: 1em 0 1em 0;
     }
-    p.address, p.desc{
+    p.addy, p.desc{
       padding: 0 2em 0 2em;
     }
     img.thumbnail{
@@ -25,8 +25,11 @@
     .fav-container{
       margin-top: 6em;
     }
-    .favorites{
-      @include clean-gray;
+    .play{
+      @include thoughtbot;
+      margin: 1em;
+      padding-left: 2em;
+      padding-right: 2em;
     }
   }
 }
