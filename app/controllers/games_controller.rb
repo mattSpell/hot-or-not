@@ -1,7 +1,6 @@
 class GamesController < ApplicationController
   respond_to :html, :js
   def index
-    scrape_homes
     @home = Home.get_next_home(current_user)
     @homes_list = get_homes_list
   end
