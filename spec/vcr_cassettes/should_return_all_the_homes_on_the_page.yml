@@ -1,0 +1,1168 @@
+---
+http_interactions:
+- request:
+    method: get
+    uri: http://www.homefinder.com/TN/Nashville/
+    body:
+      encoding: US-ASCII
+      string: ''
+    headers:
+      Accept-Encoding:
+      - gzip;q=1.0,deflate;q=0.6,identity;q=0.3
+      Accept:
+      - "*/*"
+      User-Agent:
+      - Ruby
+      Host:
+      - www.homefinder.com
+  response:
+    status:
+      code: 200
+      message: OK
+    headers:
+      Server:
+      - openresty
+      Date:
+      - Wed, 24 Sep 2014 14:46:43 GMT
+      Content-Type:
+      - text/html; charset=utf-8
+      Transfer-Encoding:
+      - chunked
+      Connection:
+      - keep-alive
+      Vary:
+      - Accept-Encoding
+      - Accept-Encoding, User-Agent
+      Set-Cookie:
+      - PHPSESSID=c9e579aeca2e794c3059d8e905e9d3b4; path=/; domain=.homefinder.com
+      Last-Modified:
+      - Wed, 24 Sep 2014 14:46:43 GMT
+      Expires:
+      - Sun, 19 Nov 1978 05:00:00 GMT
+      Cache-Control:
+      - no-store, no-cache, must-revalidate, proxy-revalidate, post-check=0, pre-check=0
+      Pragma:
+      - no-cache
+      X-Node:
+      - '141'
+    body:
+      encoding: UTF-8
+      string: '<!DOCTYPE html> <html class="no-js"> <head> <meta charset="utf-8">
+        <meta http-equiv="X-UA-Compatible" content="IE=edge,chrome=1"> <title> Nashville,
+        TN Homes for Sale & Real Estate Listings | HomeFinder.com </title> <meta name="pageName"
+        content="searchResults" /> <meta name="description" content=" See homes for
+        sale in Nashville, TN HomeFinder.com is your local home source with millions
+        of listings, and thousands of Open Houses updated daily. "/> <meta name="keywords"
+        content=" HomeFinder, Nashville, TN homes for sale, Nashville, TN properties,
+        Nashville, TN real estate, Nashville Listings, Nashville FSBO "/> <link rel="canonical"
+        href="http://www.homefinder.com/TN/Nashville/" /> <link rel="next" href="http://www.homefinder.com/TN/Nashville/?page=2"
+        /> <meta name="description" content="" /> <meta name="keywords" content=""
+        /> <link rel="stylesheet" type="text/css" href="http://www.homefinder.com/css/global/manifest.css?ver=131664c7637f5dec8fe060d3478db8a2"
+        /> <link rel="stylesheet" type="text/css" href="http://www.homefinder.com/css/search/searchResults.css?ver=131664c7637f5dec8fe060d3478db8a2"
+        /> <script src="//ajax.aspnetcdn.com/ajax/jquery/jquery-1.9.1.min.js"></script>
+        <script> window.jQuery || document.write(''<script src="http://www.homefinder.com/js/f/jquery.js"><\/script>'');
+        </script> <script src="//ajax.aspnetcdn.com/ajax/jquery.migrate/jquery-migrate-1.1.0.min.js"></script>
+        <script> jQuery.browser || document.write(''<script src="http://www.homefinder.com/js/f/jquery.migrate.js"><\/script>'');
+        </script> <script src="//cdn.optimizely.com/js/283898743.js"></script> <script
+        src="http://www.homefinder.com/js/lib/html5shiv/html5shiv.js?ver=131664c7637f5dec8fe060d3478db8a2"
+        ></script> <script> (function(i,s,o,g,r,a,m){i[''GoogleAnalyticsObject'']=r;i[r]=i[r]||function(){
+        (i[r].q=i[r].q||[]).push(arguments)},i[r].l=1*new Date();a=s.createElement(o),
+        m=s.getElementsByTagName(o)[0];a.async=1;a.src=g;m.parentNode.insertBefore(a,m)
+        })(window,document,''script'',''//www.google-analytics.com/analytics.js'',''ga'');
+        var gaKey = "UA-7013087-1"; ga(''create'', gaKey, ''homefinder.com''); ga(''require'',
+        ''displayfeatures''); window.optimizely = window.optimizely || []; window.optimizely.push([''activateUniversalAnalytics'']);
+        ga(''send'', ''pageview''); </script> <script> var googletag = googletag ||
+        {}; googletag.cmd = googletag.cmd || []; onLoadDeferredFunctions = window.onLoadDeferredFunctions
+        || []; onLoadDeferredFunctions.push(function() { var gads = document.createElement(''script'');
+        gads.async = true; gads.type = ''text/javascript''; var useSSL = ''https:''
+        == document.location.protocol; gads.src = (useSSL ? ''https:'' : ''http:'')
+        + ''//www.googletagservices.com/tag/js/gpt.js''; var node = document.getElementsByTagName(''script'')[0];
+        node.parentNode.insertBefore(gads, node); }); </script> <script src="https://maps.googleapis.com/maps/api/js?v=3.exp&amp;sensor=false&amp;key=AIzaSyCdPAfXsr51Cz9Y9jxqQauAROueuVUWcvM"></script>
+        <script> /*<![CDATA[*/ var homeFinderTargeting = { bath: '''', bed: '''',
+        city: '''', county: '''', foreclosure: '''', maxPrice: '''', metro: '''',
+        minPrice: '''', neighborhood: '''', newConstruction: '''', openHouse: '''',
+        propertyType: '''', state: '''', zipCode: '''', review: '''', maybeAgent:
+        '''', searchType: '''', setTargeting: function () { googletag.pubads() .setTargeting(''state'',
+        this.state.toString()) .setTargeting(''metro'', this.metro.toString()) .setTargeting(''county'',
+        this.county.toString()) .setTargeting(''city'', this.city.toString()) .setTargeting(''hood'',
+        this.neighborhood.toString()) .setTargeting(''zipCode'', this.zipCode.toString())
+        .setTargeting(''newConst'', this.newConstruction.toString()) .setTargeting(''4closure'',
+        this.foreclosure.toString()) .setTargeting(''openhouse'', this.openHouse.toString())
+        .setTargeting(''propType'', this.propertyType.toString()) .setTargeting(''bed'',
+        this.bed.toString()) .setTargeting(''bath'', this.bath.toString()) .setTargeting(''min_price'',
+        this.minPrice.toString()) .setTargeting(''max_price'', this.maxPrice.toString())
+        .setTargeting(''review'', this.review.toString()) .setTargeting(''maybeAgent'',
+        this.maybeAgent.toString()) .setTargeting(''searchType'', this.searchType.toString());
+        googletag.pubads().enableSingleRequest(); googletag.pubads().collapseEmptyDivs();
+        googletag.enableServices(); } }; homeFinderTargeting.state = "TN"; homeFinderTargeting.county
+        = "Davidson" + "_County_" + "TN"; homeFinderTargeting.city = "Nashville" +
+        "_" + "TN"; /*]]>*/ </script> <script> /*<![CDATA[*/ googletag.cmd.push(function()
+        { /* resource center */ googletag.defineSlot(''/1039964/RC_TextLink_1'', [270,
+        100], ''div-gpt-ad-1393350511370-0'').addService(googletag.pubads()); googletag.defineSlot(''/1039964/RC_TextLink_2'',
+        [270, 100], ''div-gpt-ad-1393350664406-0'').addService(googletag.pubads());
+        googletag.defineSlot(''/1039964/RC_TextLink_3'', [270, 100], ''div-gpt-ad-1393350747140-0'').addService(googletag.pubads());
+        googletag.defineSlot(''/1039964/Resale_Search_Header_728x90'', [728, 90],
+        ''div-gpt-ad-1321037713267-0'').addService(googletag.pubads()); googletag.defineSlot(''/1039964/Resale_Search_TopCube_300x250'',
+        [300, 250], ''div-gpt-ad-1320859315503-0'').addService(googletag.pubads());
+        googletag.defineSlot(''/1039964/Resale_Search_BottomCube_300x250'', [300,
+        250], ''div-gpt-ad-1320859457547-0'').addService(googletag.pubads()); googletag.defineSlot(''/1039964/Resale_Search_BTF_Rect_300x600'',
+        [300, 1050], ''div-gpt-ad-1320859572309-0'').addService(googletag.pubads());
+        googletag.defineSlot(''/1039964/Resale_Search_Footer_728x90'', [728, 90],
+        ''div-gpt-ad-1320859649507-0'').addService(googletag.pubads()); googletag.defineSlot(''/1039964/SR_TxtLink_590x20_ATF'',
+        [590, 24], ''div-gpt-ad-1345478880793-0'').addService(googletag.pubads());
+        googletag.defineSlot(''/1039964/SR_TxtLink_btwnListing_625x24'', [625, 24],
+        ''div-gpt-ad-1358358147090-0'').addService(googletag.pubads()); googletag.defineSlot(''/1039964/MCR_FeaturedMovers_BTF'',
+        [300, 175], ''div-gpt-ad-1361901273289-0'').addService(googletag.pubads());
+        googletag.defineSlot(''/1039964/CUS1x1SR'', [1, 1], ''div-gpt-ad-1368640930618-0'').addService(googletag.pubads());
+        homeFinderTargeting.setTargeting(); }); /*]]>*/ </script> <script type="text/javascript"
+        charset="utf-8"> (function(G,o,O,g,L,e){G[g]=G[g]||function(){(G[g][''q'']=G[g][''q'']||[]).push(
+        arguments)},G[g][''t'']=1*new Date;L=o.createElement(O),e=o.getElementsByTagName(
+        O)[0];L.async=1;L.src=''//www.google.com/adsense/search/async-ads.js''; e.parentNode.insertBefore(L,e)})(window,document,''script'',''_googCsa'');
+        </script> <script> /*<![CDATA[*/ var pageOptions = { ''pubId'': ''pub-9515103549350423'',
+        ''linkTarget'': ''_blank'', ''query'': "Nashville, TN homes for sale", ''channel'':
+        ''5386312627+'' + "9854981042", ''hl'': ''en'' }; var googleAdsenseBlock =
+        { ''container'': ''googleAdsenseContainer'', ''number'': ''4'', ''lines'':
+        ''2'', ''width'': ''625px'', ''fontFamily'': ''arial'', ''fontSizeTitle'':
+        ''14px'', ''fontSizeDescription'': ''13px'', ''fontSizeDomainLink'': ''14px'',
+        ''colorTitleLink'': ''3183A6'', ''colorText'': ''555555'', ''colorDomainLink'':
+        ''#333333'', ''colorBackground'': ''FFFFFF'', ''colorBorder'': ''FFFFFF'',
+        ''longerHeadlines'': true }; _googCsa(''ads'', pageOptions, googleAdsenseBlock);
+        /*]]>*/ </script> <base href="http://www.homefinder.com/" /> <link rel="shortcut
+        icon" href="http://www.homefinder.com/favicon.ico" type="image/x-icon" />
+        <link rel="alternate" type="application/rss+xml" title="HomeFinder.com News"
+        href="http://www.homefinder.com/news/feed/"/> <meta name="viewport" content="width=1000">
+        </head> <body id="homeFinder" class="index"> <noscript> <div class="javascriptDisabledMessage">
+        <p><span class="alertIcon"></span><strong>It looks like JavaScript is disabled
+        in your browser.</strong></p> <p> HomeFinder.com requires JavaScript to be
+        enabled in order to effectively use our site. <a href="http://www.google.com/search?q=site%3Aehow.com+how+to+enable+javascript"
+        rel="nofollow" target="_blank" >Here are some resources for instructions on
+        how to enable JavaScript</a>. </p> <p> After enabling Javascript, refresh
+        this page to continue using HomeFinder.com. </p> </div> </noscript> <div id="cobrandHeaderMenu"></div>
+        <div id="headerWrapper" class="floatClear"> <div class="header_ad noPrint">
+        <div class="header_ad" id=''div-gpt-ad-1321037713267-0'' style=''width:728px;
+        height:90px;''> <script> googletag.cmd.push(function() { googletag.display(''div-gpt-ad-1321037713267-0'');
+        }); </script> </div> </div> <header id="touchableHeader" data-handler="Header">
+        <nav class="floatClear"> <a class="logo" href="http://www.homefinder.com/"
+        title="HomeFinder homepage"><img width="145" height="46" src="http://www.homefinder.com/media/image/homefinderLogoShadow.png"
+        alt="HomeFinder" /></a> <ul class="publicNav floatClear"> <li class="buyTab">
+        <a href="http://www.homefinder.com/map-search" title="Search for a home to
+        buy">Search</a> </li> <li class="rentTab"> <a href="http://www.homefinder.com/rentals/"
+        title="Search for a home or apartment to rent">Rent</a> </li> <li class="sellTab">
+        <a href="http://www.homefinder.com/home-selling/" title="Sell a home">Sell</a>
+        </li> <li class="proTab"> <a href="http://www.homefinder.com/agents-and-brokers/"
+        title="Tools for real-estate agents and brokers">For Pros</a> </li> <li class="moreTab
+        js-expandable-menu"> <span>More</span> <ul> <li> <a href="http://www.homefinder.com/home-mortgage/"
+        title="Mortage tools">Mortgage</a> </li> <li> <a href="http://www.homefinder.com/moving/"
+        title="Moving tools">Moving</a> </li> <li> <a href="http://www.homefinder.com/auctions/"
+        title="Real estate auctions">Auctions</a> </li> <li> <a href="http://support.homefinder.com">Support
+        Center</a> </li> </ul> </li> </ul> <ul class="accountNav"> <li class="js-expandable-menu">
+        <span class="accountNavLabel">My Account</span> <ul> <li class="accountLinkUnknown">
+        <span title="Log into My HomeFinder.com" data-click-event="show-login-overlay">Log
+        In</span> </li> <li class="accountLinkUnknown"> <span title="Sign up for a
+        free account on My HomeFinder.com" data-click-event="show-create-account-overlay">Create
+        Account</span> </li> <li class="accountLinkUnknown"> <a href="http://www.homefinder.com/myHomeFinder/"
+        title="Learn about the benefits of My HomeFinder.com">About My HomeFinder.com</a>
+        </li> <li class="accountLinkConsumer"> <a href="http://www.homefinder.com/myHomeFinder/"
+        title="View saved properties on My HomeFinder.com">Saved Properties</a> </li>
+        <li class="accountLinkConsumer"> <a href="http://www.homefinder.com/myHomeFinder/"
+        title="View saved searches on My HomeFinder.com">Saved Searches</a> </li>
+        <li class="accountLinkConsumer accountLinkAdvertiser"> <span title="Edit my
+        personal information" data-click-event="show-edit-profile-overlay">Account
+        Settings</span> </li> <li class="accountLinkAdvertiser"> <a href="https://www.homefinder.com/advertiserCenter/home"
+        title="View Advertiser Center">Advertiser Center</a> </li> <li class="accountLinkConsumer
+        accountLinkAdvertiser"> <span title="Log out of My HomeFinder.com" data-click-event="log-out">Log
+        Out</span> </li> </ul> </li> </ul> <div class="searchForm"> <form action="http://www.homefinder.com/search"
+        method="post" autocomplete="off"> <fieldset class="floatClear"> <input type="text"
+        name="area" placeholder="Enter location" /> <button class="btn" type="submit">Search</button>
+        </fieldset> </form> </div> </nav> </header> </div> <a id="top" name="top"></a>
+        <div id="searchResults" class="mainContainer floatClear listingResults" data-handler="ListingCounter">
+        <div class="masthead floatClear"> <div class="resultsNavigationContainer floatClear">
+        <div class="breadcrumbs"> <a href="http://www.homefinder.com/TN/" data-category="Search
+        Results" data-action="Click" data-label="breadcrumbs">TN</a> &gt; Nashville
+        </div> <div class="listMapViewToggle"> <a class="icon-location rightButton"
+        href="http://www.homefinder.com/map-search/#!/TN/Nashville/">Map</a> <label
+        class="icon-list leftButton">List</label> </div> </div> <div class="refineContainer
+        floatClear"> <div class="refineSearchResults"> <div class="searchAreaAndNeighborhoodLink">
+        <h1> Nashville, TN Homes for Sale </h1> <span class="listingsFound"> - 3,426
+        Properties </span> </div> <form data-handler="AdvancedSearch" class="searchForm
+        searchResultsGeoWidget" name="searchResultsSearchForm" method="post" action="search"
+        id="searchResultsSearchForm" autocomplete="off"> <input name="reporting_search_name"
+        value="HS2.0 Refined" type="hidden" /> <input name="calling_page" value="listing_result_list"
+        type="hidden" /> <input name="searchForm" value="refineSearch" type="hidden"
+        /> <div class="mainSelectBoxes floatClear"> <input type="text" name="area"
+        value="Nashville, TN" id="geoAreaTextInputValue" /> <select name="minPrice"
+        id="minPrice"> <option value="" selected="selected" id="minPrice-0">Min Price</option>
+        <option value="500" id="minPrice-1">$500</option> <option value="1000" id="minPrice-2">$1,000</option>
+        <option value="1500" id="minPrice-3">$1,500</option> <option value="2000"
+        id="minPrice-4">$2,000</option> <option value="2500" id="minPrice-5">$2,500</option>
+        <option value="3000" id="minPrice-6">$3,000</option> <option value="3500"
+        id="minPrice-7">$3,500</option> <option value="4000" id="minPrice-8">$4,000</option>
+        <option value="4500" id="minPrice-9">$4,500</option> <option value="5000"
+        id="minPrice-10">$5,000</option> <option value="10000" id="minPrice-11">$10,000</option>
+        <option value="20000" id="minPrice-12">$20,000</option> <option value="30000"
+        id="minPrice-13">$30,000</option> <option value="40000" id="minPrice-14">$40,000</option>
+        <option value="50000" id="minPrice-15">$50,000</option> <option value="60000"
+        id="minPrice-16">$60,000</option> <option value="70000" id="minPrice-17">$70,000</option>
+        <option value="80000" id="minPrice-18">$80,000</option> <option value="90000"
+        id="minPrice-19">$90,000</option> <option value="100000" id="minPrice-20">$100,000</option>
+        <option value="125000" id="minPrice-21">$125,000</option> <option value="150000"
+        id="minPrice-22">$150,000</option> <option value="175000" id="minPrice-23">$175,000</option>
+        <option value="200000" id="minPrice-24">$200,000</option> <option value="225000"
+        id="minPrice-25">$225,000</option> <option value="250000" id="minPrice-26">$250,000</option>
+        <option value="275000" id="minPrice-27">$275,000</option> <option value="300000"
+        id="minPrice-28">$300,000</option> <option value="325000" id="minPrice-29">$325,000</option>
+        <option value="350000" id="minPrice-30">$350,000</option> <option value="400000"
+        id="minPrice-31">$400,000</option> <option value="450000" id="minPrice-32">$450,000</option>
+        <option value="500000" id="minPrice-33">$500,000</option> <option value="550000"
+        id="minPrice-34">$550,000</option> <option value="600000" id="minPrice-35">$600,000</option>
+        <option value="650000" id="minPrice-36">$650,000</option> <option value="700000"
+        id="minPrice-37">$700,000</option> <option value="750000" id="minPrice-38">$750,000</option>
+        <option value="800000" id="minPrice-39">$800,000</option> <option value="850000"
+        id="minPrice-40">$850,000</option> <option value="900000" id="minPrice-41">$900,000</option>
+        <option value="950000" id="minPrice-42">$950,000</option> <option value="1000000"
+        id="minPrice-43">$1,000,000</option> <option value="1250000" id="minPrice-44">$1,250,000</option>
+        <option value="1500000" id="minPrice-45">$1,500,000</option> <option value="1750000"
+        id="minPrice-46">$1,750,000</option> <option value="2000000" id="minPrice-47">$2,000,000</option>
+        <option value="2250000" id="minPrice-48">$2,250,000</option> <option value="2500000"
+        id="minPrice-49">$2,500,000</option> <option value="2750000" id="minPrice-50">$2,750,000</option>
+        <option value="3000000" id="minPrice-51">$3,000,000</option> <option value="3500000"
+        id="minPrice-52">$3,500,000</option> <option value="4000000" id="minPrice-53">$4,000,000</option>
+        <option value="4500000" id="minPrice-54">$4,500,000</option> <option value="5000000"
+        id="minPrice-55">$5,000,000</option> <option value="6000000" id="minPrice-56">$6,000,000</option>
+        <option value="8000000" id="minPrice-57">$8,000,000</option> <option value="10000000"
+        id="minPrice-58">$10,000,000</option> </select> <select name="maxPrice" id="maxPrice">
+        <option value="" selected="selected" id="maxPrice-0">Max Price</option> <option
+        value="500" id="maxPrice-1">$500</option> <option value="1000" id="maxPrice-2">$1,000</option>
+        <option value="1500" id="maxPrice-3">$1,500</option> <option value="2000"
+        id="maxPrice-4">$2,000</option> <option value="2500" id="maxPrice-5">$2,500</option>
+        <option value="3000" id="maxPrice-6">$3,000</option> <option value="3500"
+        id="maxPrice-7">$3,500</option> <option value="4000" id="maxPrice-8">$4,000</option>
+        <option value="4500" id="maxPrice-9">$4,500</option> <option value="5000"
+        id="maxPrice-10">$5,000</option> <option value="10000" id="maxPrice-11">$10,000</option>
+        <option value="20000" id="maxPrice-12">$20,000</option> <option value="30000"
+        id="maxPrice-13">$30,000</option> <option value="40000" id="maxPrice-14">$40,000</option>
+        <option value="50000" id="maxPrice-15">$50,000</option> <option value="60000"
+        id="maxPrice-16">$60,000</option> <option value="70000" id="maxPrice-17">$70,000</option>
+        <option value="80000" id="maxPrice-18">$80,000</option> <option value="90000"
+        id="maxPrice-19">$90,000</option> <option value="100000" id="maxPrice-20">$100,000</option>
+        <option value="125000" id="maxPrice-21">$125,000</option> <option value="150000"
+        id="maxPrice-22">$150,000</option> <option value="175000" id="maxPrice-23">$175,000</option>
+        <option value="200000" id="maxPrice-24">$200,000</option> <option value="225000"
+        id="maxPrice-25">$225,000</option> <option value="250000" id="maxPrice-26">$250,000</option>
+        <option value="275000" id="maxPrice-27">$275,000</option> <option value="300000"
+        id="maxPrice-28">$300,000</option> <option value="325000" id="maxPrice-29">$325,000</option>
+        <option value="350000" id="maxPrice-30">$350,000</option> <option value="400000"
+        id="maxPrice-31">$400,000</option> <option value="450000" id="maxPrice-32">$450,000</option>
+        <option value="500000" id="maxPrice-33">$500,000</option> <option value="550000"
+        id="maxPrice-34">$550,000</option> <option value="600000" id="maxPrice-35">$600,000</option>
+        <option value="650000" id="maxPrice-36">$650,000</option> <option value="700000"
+        id="maxPrice-37">$700,000</option> <option value="750000" id="maxPrice-38">$750,000</option>
+        <option value="800000" id="maxPrice-39">$800,000</option> <option value="850000"
+        id="maxPrice-40">$850,000</option> <option value="900000" id="maxPrice-41">$900,000</option>
+        <option value="950000" id="maxPrice-42">$950,000</option> <option value="1000000"
+        id="maxPrice-43">$1,000,000</option> <option value="1250000" id="maxPrice-44">$1,250,000</option>
+        <option value="1500000" id="maxPrice-45">$1,500,000</option> <option value="1750000"
+        id="maxPrice-46">$1,750,000</option> <option value="2000000" id="maxPrice-47">$2,000,000</option>
+        <option value="2250000" id="maxPrice-48">$2,250,000</option> <option value="2500000"
+        id="maxPrice-49">$2,500,000</option> <option value="2750000" id="maxPrice-50">$2,750,000</option>
+        <option value="3000000" id="maxPrice-51">$3,000,000</option> <option value="3500000"
+        id="maxPrice-52">$3,500,000</option> <option value="4000000" id="maxPrice-53">$4,000,000</option>
+        <option value="4500000" id="maxPrice-54">$4,500,000</option> <option value="5000000"
+        id="maxPrice-55">$5,000,000</option> <option value="6000000" id="maxPrice-56">$6,000,000</option>
+        <option value="8000000" id="maxPrice-57">$8,000,000</option> <option value="10000000"
+        id="maxPrice-58">$10,000,000</option> </select> <select name="minBed" class="menu"
+        id="beds"> <option value="" selected="selected" class="menu option" id="beds-0">Beds</option>
+        <option value="1" class="menu option" id="beds-1">1+ Beds</option> <option
+        value="2" class="menu option" id="beds-2">2+ Beds</option> <option value="3"
+        class="menu option" id="beds-3">3+ Beds</option> <option value="4" class="menu
+        option" id="beds-4">4+ Beds</option> <option value="5" class="menu option"
+        id="beds-5">5+ Beds</option> </select> <select name="minBath" id="baths">
+        <option value="" selected="selected" id="baths-0">Baths</option> <option value="1"
+        id="baths-1">1+ Baths</option> <option value="2" id="baths-2">2+ Baths</option>
+        <option value="3" id="baths-3">3+ Baths</option> <option value="4" id="baths-4">4+
+        Baths</option> <option value="5" id="baths-5">5+ Baths</option> </select>
+        <select name="propertyType" class="last" id="propertyType"> <option value=""
+        class="last option" id="propertyType-0">All Property Types</option> <option
+        value="single-family-home" class="last option" id="propertyType-1">Single
+        Family Home</option> <option value="condo-unit" class="last option" id="propertyType-2">Condominium/Apartment</option>
+        <option value="townhouse" class="last option" id="propertyType-3">Townhouse/Townhome</option>
+        <option value="coop-unit" class="last option" id="propertyType-4">Co-op Unit</option>
+        <option value="row-house" class="last option" id="propertyType-5">Row House</option>
+        <option value="duplex" class="last option" id="propertyType-6">Duplex</option>
+        <option value="multi-family-home" class="last option" id="propertyType-7">Multi-Family
+        Home</option> <option value="patio" class="last option" id="propertyType-8">Patio
+        Home</option> <option value="mobile-home" class="last option" id="propertyType-9">Mobile/Manufactured
+        Home</option> <option value="farm" class="last option" id="propertyType-10">Farm</option>
+        <option value="houseboat" class="last option" id="propertyType-11">Houseboat</option>
+        <option value="commercial" class="last option" id="propertyType-12">Commercial
+        Building</option> <option value="building-lot" class="last option" id="propertyType-13">Building
+        Lot</option> <option value="raw-land" class="last option" id="propertyType-14">Raw
+        Land</option> </select> </div> <div class="advancedSearchRow floatClear">
+        <div class="advancedSearchOptionsControl"> <a href="http://www.homefinder.com/TN/Nashville/#"
+        class="icon-plus-circled advancedSearchToggler">More Search Options</a> |
+        <a href="http://www.homefinder.com/TN/Nashville/sold/">View Recently Sold
+        - 9,032</a> | <a href="http://www.homefinder.com/TN/Nashville/local-real-estate">Nashville,
+        TN Local Info</a> </div> <button type="submit" class="btn">Update Search</button>
+        <div class="saveRemoveWrapper"> <button data-handler="SearchSaver" class="btn
+        secondary"><span>Save Search</span></button> </div> </div> <div class="searchFormAdvancedContainer
+        floatClear"> <div class="advancedSearchSelectBoxes"> <select name="minSquareFootage"
+        class="menu" id="minFootage"> <option value="" selected="selected" class="menu
+        option" id="minFootage-0">Min Interior Sq. Ft.</option> <option value="600"
+        class="menu option" id="minFootage-1">600</option> <option value="800" class="menu
+        option" id="minFootage-2">800</option> <option value="1000" class="menu option"
+        id="minFootage-3">1000</option> <option value="1200" class="menu option" id="minFootage-4">1200</option>
+        <option value="1400" class="menu option" id="minFootage-5">1400</option> <option
+        value="1600" class="menu option" id="minFootage-6">1600</option> <option value="1800"
+        class="menu option" id="minFootage-7">1800</option> <option value="2000" class="menu
+        option" id="minFootage-8">2000</option> <option value="2250" class="menu option"
+        id="minFootage-9">2250</option> <option value="2500" class="menu option" id="minFootage-10">2500</option>
+        <option value="2750" class="menu option" id="minFootage-11">2750</option>
+        <option value="3000" class="menu option" id="minFootage-12">3000</option>
+        <option value="4000" class="menu option" id="minFootage-13">4000</option>
+        <option value="5000" class="menu option" id="minFootage-14">5000</option>
+        <option value="6000" class="menu option" id="minFootage-15">6000</option>
+        <option value="7000" class="menu option" id="minFootage-16">7000</option>
+        <option value="8000" class="menu option" id="minFootage-17">8000</option>
+        <option value="9000" class="menu option" id="minFootage-18">9000</option>
+        <option value="10000" class="menu option" id="minFootage-19">10000</option>
+        </select> <select name="minMaxAgeOfHome" class="menu" id="minMaxAgeBuilt">
+        <option value="" selected="selected" class="menu option" id="minMaxAgeBuilt-0">Age
+        of Home</option> <option value="0-1" class="menu option" id="minMaxAgeBuilt-1">0
+        - 1 Year</option> <option value="0-5" class="menu option" id="minMaxAgeBuilt-2">0
+        - 5 Years</option> <option value="0-10" class="menu option" id="minMaxAgeBuilt-3">0
+        - 10 Years</option> <option value="0-20" class="menu option" id="minMaxAgeBuilt-4">0
+        - 20 Years</option> <option value="0-50" class="menu option" id="minMaxAgeBuilt-5">0
+        - 50 Years</option> <option value="50" class="menu option" id="minMaxAgeBuilt-6">50+
+        Years</option> </select> <input type="hidden" id="minAgeOfHome" name="minAgeOfHome"
+        value="" /> <input type="hidden" id="maxAgeOfHome" name="maxAgeOfHome" value=""
+        /> </div> <div class="advancedSearchAttributes"> <div class="onlyOpenHouses">
+        <label> <input value="true" type="checkbox" name="hasOpenHouse"/> <span>Only
+        Open Houses</span> </label> </div> <div class="searchCheckBoxWrapper"> <div
+        class="advancedSearchColumn"> <label> <input name="tab" class="radioContainer"
+        value="1" title="All listings" type="radio" checked="checked" /> <span>All
+        Homes</span> </label> <label> <input name="tab" class="radioContainer" value="3"
+        title="Agent & Broker Listings" type="radio" /> <span>Agent &amp; Broker Listings</span>
+        </label> <label> <input name="tab" class="radioContainer" value="2" title="New
+        Construction listings" type="radio" /> <span>New Construction</span> </label>
+        <label> <input name="tab" class="radioContainer" value="5" title="Foreclosure
+        listings" type="radio" /> <span>Foreclosures</span> </label> <label> <input
+        name="tab" class="radioContainer" value="6" title="Rental listings" type="radio"
+        /> <span>Rentals</span> </label> <label> <input name="tab" class="radioContainer"
+        value="4" title="Owner/Classified listings" type="radio" /> <span>Owner/Classifieds</span>
+        </label> </div> <div class="advancedSearchColumn"> <label> <input class="checkboxContainer"
+        value="true" type="checkbox" name="isAssistedLivingCommunity" /> <span>Assisted
+        Living</span> </label> <label> <input class="checkboxContainer" value="true"
+        type="checkbox" name="hasBasement" /> <span>Basement</span> </label> <label>
+        <input class="checkboxContainer" value="true" type="checkbox" name="hasCentralAir"
+        /> <span>Central Air</span> </label> <label> <input class="checkboxContainer"
+        value="true" type="checkbox" name="isWheelchairAccessible" /> <span>Wheelchair
+        Access</span> </label> </div> <div class="advancedSearchColumn"> <label> <input
+        class="checkboxContainer" value="true" type="checkbox" name="isWaterfrontProperty"
+        /> <span>Waterfront Property</span> </label> <label> <input class="checkboxContainer"
+        value="true" type="checkbox" name="isGolfCommunity" /> <span>Golf Property</span>
+        </label> <label> <input class="checkboxContainer" value="true" type="checkbox"
+        name="hasFamilyRoom" /> <span>Family Room</span> </label> <label> <input class="checkboxContainer"
+        value="true" type="checkbox" name="hasGarage" /> <span>Garage</span> </label>
+        </div> <div class="advancedSearchColumn last"> <label> <input class="checkboxContainer"
+        value="true" type="checkbox" name="hasFireplace" /> <span>Fireplace</span>
+        </label> <label> <input class="checkboxContainer" value="true" type="checkbox"
+        name="hasDiningRoom" /> <span>Dining Room</span> </label> <label> <input class="checkboxContainer"
+        value="true" type="checkbox" name="hasSwimmingPool" /> <span>Swimming Pool</span>
+        </label> </div> </div> </div> </div> </form> </div> </div> </div> <section>
+        <div id="leftColumn"> <div class="metaDataContainer"> <div class="metaDataBar
+        floatClear"> <div class="paginationContainer "> <div class="pagination"> <span
+        class="page"> Page 1 of 172 </span> <span class="prevNextContainer"> <a class="next
+        btn secondary" href="TN/Nashville/?page=2">Next</a> </span> </div> </div>
+        <div class="metaDataHeader sortedBy"> <select name="sort" class="sort_dropdown">
+        <option value="" selected="selected" class="sort_dropdown option">Sort by...</option>
+        <option value="price-asc" class="sort_dropdown option">Price (low to high)</option>
+        <option value="price-desc" class="sort_dropdown option">Price (high to low)</option>
+        <option value="siteAddedDate-desc" class="sort_dropdown option">Newest Listings
+        First</option> <option value="bed-desc" class="sort_dropdown option">Sort
+        by Beds</option> <option value="bath-desc" class="sort_dropdown option">Sort
+        by Baths</option> <option value="hasOpenHouse-desc" class="sort_dropdown option">Sort
+        by Open House</option> <option value="hasVirtualTour-desc" class="sort_dropdown
+        option">Sort by Virtual Tour</option> <option value="hasAdditionalPhotos-desc"
+        class="sort_dropdown option">Sort by Addl. Photos</option> </select> </div>
+        </div> </div> <script> var resultsUrlForSortByDropdown = "http:\/\/www.homefinder.com\/"
+        + "TN\/Nashville\/"; </script> <div id="featuredProperties" class="wrapper"></div>
+        <div class="wellsFargo"> <div id=''div-gpt-ad-1345478880793-0'' style=''width:590px;
+        height:24px;''> <script> googletag.cmd.push(function() { googletag.display(''div-gpt-ad-1345478880793-0'');
+        }); </script> </div> </div> <div class="resultsBandsSeparator"></div> <div
+        class="resultsBands last" itemscope itemtype="http://schema.org/Residence">
+        <div class="resultContent floatClear"> <div class="photoAndDescription floatClear">
+        <div class="propertyPhotoWrapper"> <div class="photoBorder"> <a href="http://www.homefinder.com/TN/Nashville/0-Nolensville-Rd-107855870d"
+        data-activity-type="clickthru" data-activity-listing-id-filter="107855870"
+        data-activity-page-from="Unknown" data-activity-page-to="listing_details">
+        <img class="propertyPhoto" itemprop="photo" alt="Home for sale: 0 Nolensville
+        Rd., Nashville, TN 37211" title="Home for sale: 0 Nolensville Rd., Nashville,
+        TN 37211" src="http://images.homefinder.com/normal/listings/EXTP/IMAGEJPG.54/1108545/554272721.JPG"
+        /> </a> </div> <div class="photoCounts floatClear"> </div> </div> <div class="propertyInformation
+        floatClear"> <div class="propertyDescription"> <div class="price"> $7,500,000
+        </div> <div class="addressContainer"> <a class="address" href="http://www.homefinder.com/TN/Nashville/0-Nolensville-Rd-107855870d"
+        itemprop="url" data-activity-type="clickthru" data-activity-listing-id-filter="107855870"
+        data-activity-page-from="Unknown" data-activity-page-to="listing_details">
+        <span itemprop="address" itemscope itemtype="http://schema.org/PostalAddress">
+        <span itemprop="name">0 Nolensville Rd., Nashville, TN 37211</span> <meta
+        itemprop="streetAddress" content="0 Nolensville Rd." /> <meta itemprop="addressLocality"
+        content="Nashville" /> <meta itemprop="addressRegion" content="TN" /> <meta
+        itemprop="postalCode" content="37211" /> <meta itemprop="addressCountry" content="United
+        States" /> </span> </a> </div> <div class="propertyType"> Raw Land </div>
+        <div class="bandLinks"> <a class="btn secondary" title="Property details for:
+        0 Nolensville Rd., Nashville, TN 37211" href="http://www.homefinder.com/TN/Nashville/0-Nolensville-Rd-107855870d"
+        data-activity-type="clickthru" data-activity-listing-id-filter="107855870"
+        data-activity-page-from="Unknown" data-activity-page-to="listing_details">View
+        Details</a> <div class="saveRemoveWrapper saveProperty"> <a data-handler="ListingSaver"
+        href="#" rel="paId107855870"> <span>&#9829; Save</span> </a> </div> </div>
+        <div class="floatClear"></div> </div> <div class="partySection" itemscope
+        itemtype="http://schema.org/RealEstateAgent"> <img src="http://images.homefinder.com/normal/advertisers/0/0/0/0/2/6/0/260471/logos/100x125/0.png"
+        alt="logo" class="partyImage1" itemprop="logo" /> <div class="bold" itemprop="brand">
+        Coldwell Banker Barnes - Franklin Office </div> <div class="bold" itemprop="member">
+        Ann Shirley </div> <p itemprop="telephone"> (855) 550-1666 </p> </div> </div>
+        </div> </div> </div> <div class="resultsBands last" itemscope itemtype="http://schema.org/Residence">
+        <div class="resultContent floatClear"> <div class="photoAndDescription floatClear">
+        <div class="propertyPhotoWrapper"> <div class="photoBorder"> <a href="http://www.homefinder.com/TN/Nashville/1101-Menzler-Rd-106647963d"
+        data-activity-type="clickthru" data-activity-listing-id-filter="106647963"
+        data-activity-page-from="Unknown" data-activity-page-to="listing_details">
+        <img class="propertyPhoto" itemprop="photo" alt="Home for sale: 1101 Menzler
+        Rd., Nashville, TN 37210" title="Home for sale: 1101 Menzler Rd., Nashville,
+        TN 37210" src="http://images.homefinder.com/normal/listings/EXTP/IMAGEJPG.53/1078928/539464398.JPG"
+        /> </a> </div> <div class="photoCounts floatClear"> <ul> <li> 5 Photos </li>
+        </ul> </div> </div> <div class="propertyInformation floatClear"> <div class="propertyDescription">
+        <div class="price"> $3,500,000 </div> <div class="addressContainer"> <a class="address"
+        href="http://www.homefinder.com/TN/Nashville/1101-Menzler-Rd-106647963d" itemprop="url"
+        data-activity-type="clickthru" data-activity-listing-id-filter="106647963"
+        data-activity-page-from="Unknown" data-activity-page-to="listing_details">
+        <span itemprop="address" itemscope itemtype="http://schema.org/PostalAddress">
+        <span itemprop="name">1101 Menzler Rd., Nashville, TN 37210</span> <meta itemprop="streetAddress"
+        content="1101 Menzler Rd." /> <meta itemprop="addressLocality" content="Nashville"
+        /> <meta itemprop="addressRegion" content="TN" /> <meta itemprop="postalCode"
+        content="37210" /> <meta itemprop="addressCountry" content="United States"
+        /> </span> </a> </div> <div class="propertyType"> Commercial Building </div>
+        <div class="bandLinks"> <a class="btn secondary" title="Property details for:
+        1101 Menzler Rd., Nashville, TN 37210" href="http://www.homefinder.com/TN/Nashville/1101-Menzler-Rd-106647963d"
+        data-activity-type="clickthru" data-activity-listing-id-filter="106647963"
+        data-activity-page-from="Unknown" data-activity-page-to="listing_details">View
+        Details</a> <div class="saveRemoveWrapper saveProperty"> <a data-handler="ListingSaver"
+        href="#" rel="paId106647963"> <span>&#9829; Save</span> </a> </div> </div>
+        <div class="floatClear"></div> </div> <div class="partySection" itemscope
+        itemtype="http://schema.org/RealEstateAgent"> <img src="http://images.homefinder.com/normal/advertisers/0/0/0/0/2/6/0/260471/logos/100x125/0.png"
+        alt="logo" class="partyImage1" itemprop="logo" /> <div class="bold" itemprop="brand">
+        Coldwell Banker Barnes - Franklin Office </div> <div itemprop="member"> Bruce
+        Anstey, Sr. </div> <p itemprop="telephone"> (866) 598-6296 </p> </div> </div>
+        </div> </div> </div> <div class="resultsBands last" itemscope itemtype="http://schema.org/SingleFamilyResidence">
+        <div class="resultContent floatClear"> <div class="photoAndDescription floatClear">
+        <div class="propertyPhotoWrapper"> <div class="photoBorder"> <a href="http://www.homefinder.com/TN/Nashville/703-Belle-Meade-Blvd-110113577d"
+        data-activity-type="clickthru" data-activity-listing-id-filter="110113577"
+        data-activity-page-from="Unknown" data-activity-page-to="listing_details">
+        <img class="propertyPhoto" itemprop="photo" alt="Home for sale: 703 Belle
+        Meade Blvd., Nashville, TN 37205" title="Home for sale: 703 Belle Meade Blvd.,
+        Nashville, TN 37205" src="http://images.homefinder.com/normal/listings/EXTP/IMAGEJPG.57/1161799/580899901.JPG"
+        /> </a> </div> <div class="photoCounts floatClear"> <ul> <li> 20 Photos </li>
+        <li> | Virtual Tour </li> </ul> </div> </div> <div class="propertyInformation
+        floatClear"> <div class="propertyDescription"> <div class="price"> $3,099,900
+        <span class="reducedText"> (Reduced 09/20/14) </span> </div> <div class="addressContainer">
+        <a class="address" href="http://www.homefinder.com/TN/Nashville/703-Belle-Meade-Blvd-110113577d"
+        itemprop="url" data-activity-type="clickthru" data-activity-listing-id-filter="110113577"
+        data-activity-page-from="Unknown" data-activity-page-to="listing_details">
+        <span itemprop="address" itemscope itemtype="http://schema.org/PostalAddress">
+        <span itemprop="name">703 Belle Meade Blvd., Nashville, TN 37205</span> <meta
+        itemprop="streetAddress" content="703 Belle Meade Blvd." /> <meta itemprop="addressLocality"
+        content="Nashville" /> <meta itemprop="addressRegion" content="TN" /> <meta
+        itemprop="postalCode" content="37205" /> <meta itemprop="addressCountry" content="United
+        States" /> </span> </a> </div> <div class="propertyType"> Single Family Home
+        </div> <div class="attributes"> <span class="beds">Beds: 5</span> <span class="baths">Baths:
+        5 Full, 2 Half</span> </div> <div class="bandLinks"> <a class="btn secondary"
+        title="Property details for: 703 Belle Meade Blvd., Nashville, TN 37205" href="http://www.homefinder.com/TN/Nashville/703-Belle-Meade-Blvd-110113577d"
+        data-activity-type="clickthru" data-activity-listing-id-filter="110113577"
+        data-activity-page-from="Unknown" data-activity-page-to="listing_details">View
+        Details</a> <div class="saveRemoveWrapper saveProperty"> <a data-handler="ListingSaver"
+        href="#" rel="paId110113577"> <span>&#9829; Save</span> </a> </div> </div>
+        <div class="floatClear"></div> </div> <div class="partySection" itemscope
+        itemtype="http://schema.org/RealEstateAgent"> <img src="http://images.homefinder.com/normal/partiesRA/BRLOGO1/IMAGEJPG/3505627/350562731.JPG"
+        alt="logo" class="partyImage1" itemprop="logo" /> <div itemprop="brand"> RE/MAX
+        Elite </div> <div class="bold" itemprop="member"> Patricia Straus </div> <p
+        itemprop="telephone"> (888) 618-4703 </p> </div> </div> </div> </div> </div>
+        <div class="resultsBands last" itemscope itemtype="http://schema.org/SingleFamilyResidence">
+        <div class="resultContent floatClear"> <div class="photoAndDescription floatClear">
+        <div class="propertyPhotoWrapper"> <div class="photoBorder"> <a href="http://www.homefinder.com/TN/Nashville/4106-Sneed-Rd-108579809d"
+        data-activity-type="clickthru" data-activity-listing-id-filter="108579809"
+        data-activity-page-from="Unknown" data-activity-page-to="listing_details">
+        <img class="propertyPhoto" itemprop="photo" alt="Home for sale: 4106 Sneed
+        Rd., Nashville, TN 37215" title="Home for sale: 4106 Sneed Rd., Nashville,
+        TN 37215" src="http://images.homefinder.com/normal/listings/EXTP/IMAGEJPG.56/1127547/563773886.JPG"
+        /> </a> </div> <div class="photoCounts floatClear"> <ul> <li> 16 Photos </li>
+        </ul> </div> </div> <div class="propertyInformation floatClear"> <div class="propertyDescription">
+        <div class="price"> $2,975,000 </div> <div class="addressContainer"> <a class="address"
+        href="http://www.homefinder.com/TN/Nashville/4106-Sneed-Rd-108579809d" itemprop="url"
+        data-activity-type="clickthru" data-activity-listing-id-filter="108579809"
+        data-activity-page-from="Unknown" data-activity-page-to="listing_details">
+        <span itemprop="address" itemscope itemtype="http://schema.org/PostalAddress">
+        <span itemprop="name">4106 Sneed Rd., Nashville, TN 37215</span> <meta itemprop="streetAddress"
+        content="4106 Sneed Rd." /> <meta itemprop="addressLocality" content="Nashville"
+        /> <meta itemprop="addressRegion" content="TN" /> <meta itemprop="postalCode"
+        content="37215" /> <meta itemprop="addressCountry" content="United States"
+        /> </span> </a> </div> <div class="propertyType"> Single Family Home </div>
+        <div class="attributes"> <span class="beds">Beds: 3</span> <span class="baths">Baths:
+        4 Full, 2 Half</span> </div> <div class="bandLinks"> <a class="btn secondary"
+        title="Property details for: 4106 Sneed Rd., Nashville, TN 37215" href="http://www.homefinder.com/TN/Nashville/4106-Sneed-Rd-108579809d"
+        data-activity-type="clickthru" data-activity-listing-id-filter="108579809"
+        data-activity-page-from="Unknown" data-activity-page-to="listing_details">View
+        Details</a> <div class="saveRemoveWrapper saveProperty"> <a data-handler="ListingSaver"
+        href="#" rel="paId108579809"> <span>&#9829; Save</span> </a> </div> </div>
+        <div class="floatClear"></div> </div> <div class="partySection" itemscope
+        itemtype="http://schema.org/RealEstateAgent"> <img src="http://images.homefinder.com/normal/partiesRA/BRLOGO1/IMAGEJPG/6782785/678278593.JPG"
+        alt="logo" class="partyImage1" itemprop="logo" /> <div itemprop="brand"> Christianson,
+        Patterson, Courtney &amp; Associates </div> <div class="bold" itemprop="member">
+        Richard Courtney </div> <p itemprop="telephone"> (855) 444-5357 </p> </div>
+        </div> </div> </div> </div> <div class="resultsBands last" itemscope itemtype="http://schema.org/SingleFamilyResidence">
+        <div class="resultContent floatClear"> <div class="photoAndDescription floatClear">
+        <div class="propertyPhotoWrapper"> <div class="photoBorder"> <a href="http://www.homefinder.com/TN/Nashville/5028-Franklin-Pike-105531204d"
+        data-activity-type="clickthru" data-activity-listing-id-filter="105531204"
+        data-activity-page-from="Unknown" data-activity-page-to="listing_details">
+        <img class="propertyPhoto" itemprop="photo" alt="Home for sale: 5028 Franklin
+        Pike, Nashville, TN 37220" title="Home for sale: 5028 Franklin Pike, Nashville,
+        TN 37220" src="http://images.homefinder.com/normal/listings/EXTP/IMAGEJPG.51/1052387/526193669.JPG"
+        /> </a> </div> <div class="photoCounts floatClear"> <ul> <li> 20 Photos </li>
+        <li> | Virtual Tour </li> </ul> </div> </div> <div class="propertyInformation
+        floatClear"> <div class="propertyDescription"> <div class="price"> $2,800,000
+        </div> <div class="addressContainer"> <a class="address" href="http://www.homefinder.com/TN/Nashville/5028-Franklin-Pike-105531204d"
+        itemprop="url" data-activity-type="clickthru" data-activity-listing-id-filter="105531204"
+        data-activity-page-from="Unknown" data-activity-page-to="listing_details">
+        <span itemprop="address" itemscope itemtype="http://schema.org/PostalAddress">
+        <span itemprop="name">5028 Franklin Pike, Nashville, TN 37220</span> <meta
+        itemprop="streetAddress" content="5028 Franklin Pike" /> <meta itemprop="addressLocality"
+        content="Nashville" /> <meta itemprop="addressRegion" content="TN" /> <meta
+        itemprop="postalCode" content="37220" /> <meta itemprop="addressCountry" content="United
+        States" /> </span> </a> </div> <div class="propertyType"> Single Family Home
+        </div> <div class="attributes"> <span class="beds">Beds: 8</span> <span class="baths">Baths:
+        9 Full, 2 Half</span> </div> <div class="bandLinks"> <a class="btn secondary"
+        title="Property details for: 5028 Franklin Pike, Nashville, TN 37220" href="http://www.homefinder.com/TN/Nashville/5028-Franklin-Pike-105531204d"
+        data-activity-type="clickthru" data-activity-listing-id-filter="105531204"
+        data-activity-page-from="Unknown" data-activity-page-to="listing_details">View
+        Details</a> <div class="saveRemoveWrapper saveProperty"> <a data-handler="ListingSaver"
+        href="#" rel="paId105531204"> <span>&#9829; Save</span> </a> </div> </div>
+        <div class="floatClear"></div> </div> <div class="partySection" itemscope
+        itemtype="http://schema.org/RealEstateAgent"> <img src="http://images.homefinder.com/normal/advertisers/0/0/0/0/2/4/4/244886/logos/100x125/0.png"
+        alt="logo" class="partyImage1" itemprop="logo" /> <div itemprop="brand"> Bob
+        Parks Realty </div> <div class="bold" itemprop="member"> Lisa Culp Taylor
+        </div> <p itemprop="telephone"> (855) 401-8751 </p> </div> </div> </div> </div>
+        </div> <div class="resultsBands last" itemscope itemtype="http://schema.org/Residence">
+        <div class="resultContent floatClear"> <div class="photoAndDescription floatClear">
+        <div class="propertyPhotoWrapper"> <div class="photoBorder"> <a href="http://www.homefinder.com/TN/Nashville/0-Skyline-Ctr-Ct-103670643d"
+        data-activity-type="clickthru" data-activity-listing-id-filter="103670643"
+        data-activity-page-from="Unknown" data-activity-page-to="listing_details">
+        <img class="propertyPhoto" itemprop="photo" alt="Home for sale: 0 Skyline
+        Ctr. Ct., Nashville, TN 37207" title="Home for sale: 0 Skyline Ctr. Ct., Nashville,
+        TN 37207" src="http://images.homefinder.com/normal/listings/EXTP/IMAGEJPG.49/1011959/505979854.JPG"
+        /> </a> </div> <div class="photoCounts floatClear"> </div> </div> <div class="propertyInformation
+        floatClear"> <div class="propertyDescription"> <div class="price"> $2,787,000
+        </div> <div class="addressContainer"> <a class="address" href="http://www.homefinder.com/TN/Nashville/0-Skyline-Ctr-Ct-103670643d"
+        itemprop="url" data-activity-type="clickthru" data-activity-listing-id-filter="103670643"
+        data-activity-page-from="Unknown" data-activity-page-to="listing_details">
+        <span itemprop="address" itemscope itemtype="http://schema.org/PostalAddress">
+        <span itemprop="name">0 Skyline Ctr. Ct., Nashville, TN 37207</span> <meta
+        itemprop="streetAddress" content="0 Skyline Ctr. Ct." /> <meta itemprop="addressLocality"
+        content="Nashville" /> <meta itemprop="addressRegion" content="TN" /> <meta
+        itemprop="postalCode" content="37207" /> <meta itemprop="addressCountry" content="United
+        States" /> </span> </a> </div> <div class="propertyType"> Commercial Building
+        </div> <div class="bandLinks"> <a class="btn secondary" title="Property details
+        for: 0 Skyline Ctr. Ct., Nashville, TN 37207" href="http://www.homefinder.com/TN/Nashville/0-Skyline-Ctr-Ct-103670643d"
+        data-activity-type="clickthru" data-activity-listing-id-filter="103670643"
+        data-activity-page-from="Unknown" data-activity-page-to="listing_details">View
+        Details</a> <div class="saveRemoveWrapper saveProperty"> <a data-handler="ListingSaver"
+        href="#" rel="paId103670643"> <span>&#9829; Save</span> </a> </div> </div>
+        <div class="floatClear"></div> </div> <div class="partySection" itemscope
+        itemtype="http://schema.org/RealEstateAgent"> <img src="http://images.homefinder.com/normal/partiesRA/BRLOGO1/IMAGEJPG/3158673/315867352.JPG"
+        alt="logo" class="partyImage1" itemprop="logo" /> <div itemprop="brand"> Rochford/Bell
+        </div> <div class="bold" itemprop="member"> Jarratt Bell </div> <p itemprop="telephone">
+        (855) 391-2937 </p> </div> </div> </div> </div> </div> <div class="resultsBands
+        last" itemscope itemtype="http://schema.org/Residence"> <div class="resultContent
+        floatClear"> <div class="photoAndDescription floatClear"> <div class="propertyPhotoWrapper">
+        <div class="photoBorder"> <a href="http://www.homefinder.com/TN/Nashville/1800-Tyne-Blvd-96667435d"
+        data-activity-type="clickthru" data-activity-listing-id-filter="96667435"
+        data-activity-page-from="Unknown" data-activity-page-to="listing_details">
+        <img class="propertyPhoto" itemprop="photo" alt="Home for sale: 1800 Tyne
+        Blvd., Nashville, TN 37215" title="Home for sale: 1800 Tyne Blvd., Nashville,
+        TN 37215" src="http://images.homefinder.com/normal/listings/EXTP/IMAGEJPG.43/876588/438294233.JPG"
+        /> </a> </div> <div class="photoCounts floatClear"> <ul> <li> 5 Photos </li>
+        </ul> </div> </div> <div class="propertyInformation floatClear"> <div class="propertyDescription">
+        <div class="price"> $2,495,000 </div> <div class="addressContainer"> <a class="address"
+        href="http://www.homefinder.com/TN/Nashville/1800-Tyne-Blvd-96667435d" itemprop="url"
+        data-activity-type="clickthru" data-activity-listing-id-filter="96667435"
+        data-activity-page-from="Unknown" data-activity-page-to="listing_details">
+        <span itemprop="address" itemscope itemtype="http://schema.org/PostalAddress">
+        <span itemprop="name">1800 Tyne Blvd., Nashville, TN 37215</span> <meta itemprop="streetAddress"
+        content="1800 Tyne Blvd." /> <meta itemprop="addressLocality" content="Nashville"
+        /> <meta itemprop="addressRegion" content="TN" /> <meta itemprop="postalCode"
+        content="37215" /> <meta itemprop="addressCountry" content="United States"
+        /> </span> </a> </div> <div class="propertyType"> Building Lot </div> <div
+        class="bandLinks"> <a class="btn secondary" title="Property details for: 1800
+        Tyne Blvd., Nashville, TN 37215" href="http://www.homefinder.com/TN/Nashville/1800-Tyne-Blvd-96667435d"
+        data-activity-type="clickthru" data-activity-listing-id-filter="96667435"
+        data-activity-page-from="Unknown" data-activity-page-to="listing_details">View
+        Details</a> <div class="saveRemoveWrapper saveProperty"> <a data-handler="ListingSaver"
+        href="#" rel="paId96667435"> <span>&#9829; Save</span> </a> </div> </div>
+        <div class="floatClear"></div> </div> <div class="partySection" itemscope
+        itemtype="http://schema.org/RealEstateAgent"> <img src="http://images.homefinder.com/normal/advertisers/0/0/0/0/2/6/0/260439/logos/100x125/0.png"
+        alt="logo" class="partyImage1" itemprop="logo" /> <div itemprop="brand"> Fridrich
+        &amp; Clark Realty </div> <div class="bold" itemprop="member"> Martin(Marty)
+        Warren </div> <p itemprop="telephone"> (855) 403-6009 </p> </div> </div> </div>
+        </div> </div> <div class="resultsBands last" itemscope itemtype="http://schema.org/SingleFamilyResidence">
+        <div class="resultContent floatClear"> <div class="photoAndDescription floatClear">
+        <div class="propertyPhotoWrapper"> <div class="photoBorder"> <a href="http://www.homefinder.com/TN/Nashville/1211-Belle-Meade-Blvd-106556125d"
+        data-activity-type="clickthru" data-activity-listing-id-filter="106556125"
+        data-activity-page-from="Unknown" data-activity-page-to="listing_details">
+        <img class="propertyPhoto" itemprop="photo" alt="Home for sale: 1211 Belle
+        Meade Blvd., Nashville, TN 37205" title="Home for sale: 1211 Belle Meade Blvd.,
+        Nashville, TN 37205" src="http://images.homefinder.com/normal/listings/EXTP/IMAGEJPG.53/1076412/538206463.JPG"
+        /> </a> </div> <div class="photoCounts floatClear"> <ul> <li> 20 Photos </li>
+        <li> | Virtual Tour </li> </ul> </div> </div> <div class="propertyInformation
+        floatClear"> <div class="propertyDescription"> <div class="price"> $1,685,000
+        <span class="reducedText"> (Reduced 09/04/14) </span> </div> <div class="addressContainer">
+        <a class="address" href="http://www.homefinder.com/TN/Nashville/1211-Belle-Meade-Blvd-106556125d"
+        itemprop="url" data-activity-type="clickthru" data-activity-listing-id-filter="106556125"
+        data-activity-page-from="Unknown" data-activity-page-to="listing_details">
+        <span itemprop="address" itemscope itemtype="http://schema.org/PostalAddress">
+        <span itemprop="name">1211 Belle Meade Blvd., Nashville, TN 37205</span> <meta
+        itemprop="streetAddress" content="1211 Belle Meade Blvd." /> <meta itemprop="addressLocality"
+        content="Nashville" /> <meta itemprop="addressRegion" content="TN" /> <meta
+        itemprop="postalCode" content="37205" /> <meta itemprop="addressCountry" content="United
+        States" /> </span> </a> </div> <div class="propertyType"> Single Family Home
+        </div> <div class="attributes"> <span class="beds">Beds: 4</span> <span class="baths">Baths:
+        3 Full</span> </div> <div class="bandLinks"> <a class="btn secondary" title="Property
+        details for: 1211 Belle Meade Blvd., Nashville, TN 37205" href="http://www.homefinder.com/TN/Nashville/1211-Belle-Meade-Blvd-106556125d"
+        data-activity-type="clickthru" data-activity-listing-id-filter="106556125"
+        data-activity-page-from="Unknown" data-activity-page-to="listing_details">View
+        Details</a> <div class="saveRemoveWrapper saveProperty"> <a data-handler="ListingSaver"
+        href="#" rel="paId106556125"> <span>&#9829; Save</span> </a> </div> </div>
+        <div class="floatClear"></div> </div> <div class="partySection" itemscope
+        itemtype="http://schema.org/RealEstateAgent"> <img src="http://images.homefinder.com/normal/partiesRA/BRLOGO1/IMAGEJPG/6782785/678278593.JPG"
+        alt="logo" class="partyImage1" itemprop="logo" /> <div itemprop="brand"> Christianson,
+        Patterson, Courtney &amp; Associates </div> <div class="bold" itemprop="member">
+        Richard Courtney </div> <p itemprop="telephone"> (855) 444-5357 </p> </div>
+        </div> </div> </div> </div> <div class="resultsBands last" itemscope itemtype="http://schema.org/Residence">
+        <div class="resultContent floatClear"> <div class="photoAndDescription floatClear">
+        <div class="propertyPhotoWrapper"> <div class="photoBorder"> <a href="http://www.homefinder.com/TN/Nashville/5614-Ashland-City-Hwy-106962595d"
+        data-activity-type="clickthru" data-activity-listing-id-filter="106962595"
+        data-activity-page-from="Unknown" data-activity-page-to="listing_details">
+        <img class="propertyPhoto" itemprop="photo" alt="Home for sale: 5614 Ashland
+        City Hwy., Nashville, TN 37218" title="Home for sale: 5614 Ashland City Hwy.,
+        Nashville, TN 37218" src="http://images.homefinder.com/normal/listings/EXTP/IMAGEJPG.56/1136743/568371846.JPG"
+        /> </a> </div> <div class="photoCounts floatClear"> <ul> <li> 4 Photos </li>
+        </ul> </div> </div> <div class="propertyInformation floatClear"> <div class="propertyDescription">
+        <div class="price"> $1,500,000 </div> <div class="addressContainer"> <a class="address"
+        href="http://www.homefinder.com/TN/Nashville/5614-Ashland-City-Hwy-106962595d"
+        itemprop="url" data-activity-type="clickthru" data-activity-listing-id-filter="106962595"
+        data-activity-page-from="Unknown" data-activity-page-to="listing_details">
+        <span itemprop="address" itemscope itemtype="http://schema.org/PostalAddress">
+        <span itemprop="name">5614 Ashland City Hwy., Nashville, TN 37218</span> <meta
+        itemprop="streetAddress" content="5614 Ashland City Hwy." /> <meta itemprop="addressLocality"
+        content="Nashville" /> <meta itemprop="addressRegion" content="TN" /> <meta
+        itemprop="postalCode" content="37218" /> <meta itemprop="addressCountry" content="United
+        States" /> </span> </a> </div> <div class="propertyType"> Farm </div> <div
+        class="bandLinks"> <a class="btn secondary" title="Property details for: 5614
+        Ashland City Hwy., Nashville, TN 37218" href="http://www.homefinder.com/TN/Nashville/5614-Ashland-City-Hwy-106962595d"
+        data-activity-type="clickthru" data-activity-listing-id-filter="106962595"
+        data-activity-page-from="Unknown" data-activity-page-to="listing_details">View
+        Details</a> <div class="saveRemoveWrapper saveProperty"> <a data-handler="ListingSaver"
+        href="#" rel="paId106962595"> <span>&#9829; Save</span> </a> </div> </div>
+        <div class="floatClear"></div> </div> <div class="partySection" itemscope
+        itemtype="http://schema.org/RealEstateAgent"> <img src="http://images.homefinder.com/normal/partiesRA/BRLOGO1/IMAGEJPG/6177921/617792187.JPG"
+        alt="logo" class="partyImage1" itemprop="logo" /> <div itemprop="brand"> Exit
+        Realty Diversified </div> <div class="bold" itemprop="member"> Sarah Thomas
+        </div> <p itemprop="telephone"> (855) 394-3173 </p> </div> </div> </div> </div>
+        </div> <div class="resultsBands last" itemscope itemtype="http://schema.org/SingleFamilyResidence">
+        <div class="resultContent floatClear"> <div class="photoAndDescription floatClear">
+        <div class="propertyPhotoWrapper"> <div class="photoBorder"> <a href="http://www.homefinder.com/TN/Nashville/1317-Beddington-Park-109143890d"
+        data-activity-type="clickthru" data-activity-listing-id-filter="109143890"
+        data-activity-page-from="Unknown" data-activity-page-to="listing_details">
+        <img class="propertyPhoto" itemprop="photo" alt="Home for sale: 1317 Beddington
+        Park, Nashville, TN 37215" title="Home for sale: 1317 Beddington Park, Nashville,
+        TN 37215" src="http://images.homefinder.com/normal/listings/EXTP/IMAGEJPG.56/1140924/570462437.JPG"
+        /> </a> </div> <div class="photoCounts floatClear"> <ul> <li> 20 Photos </li>
+        <li> | Virtual Tour </li> </ul> </div> </div> <div class="propertyInformation
+        floatClear"> <div class="propertyDescription"> <div class="price"> $1,275,000
+        </div> <div class="addressContainer"> <a class="address" href="http://www.homefinder.com/TN/Nashville/1317-Beddington-Park-109143890d"
+        itemprop="url" data-activity-type="clickthru" data-activity-listing-id-filter="109143890"
+        data-activity-page-from="Unknown" data-activity-page-to="listing_details">
+        <span itemprop="address" itemscope itemtype="http://schema.org/PostalAddress">
+        <span itemprop="name">1317 Beddington Park, Nashville, TN 37215</span> <meta
+        itemprop="streetAddress" content="1317 Beddington Park" /> <meta itemprop="addressLocality"
+        content="Nashville" /> <meta itemprop="addressRegion" content="TN" /> <meta
+        itemprop="postalCode" content="37215" /> <meta itemprop="addressCountry" content="United
+        States" /> </span> </a> </div> <div class="propertyType"> Single Family Home
+        </div> <div class="attributes"> <span class="beds">Beds: 4</span> <span class="baths">Baths:
+        4 Full, 1 Half</span> </div> <div class="bandLinks"> <a class="btn secondary"
+        title="Property details for: 1317 Beddington Park, Nashville, TN 37215" href="http://www.homefinder.com/TN/Nashville/1317-Beddington-Park-109143890d"
+        data-activity-type="clickthru" data-activity-listing-id-filter="109143890"
+        data-activity-page-from="Unknown" data-activity-page-to="listing_details">View
+        Details</a> <div class="saveRemoveWrapper saveProperty"> <a data-handler="ListingSaver"
+        href="#" rel="paId109143890"> <span>&#9829; Save</span> </a> </div> </div>
+        <div class="floatClear"></div> </div> <div class="partySection" itemscope
+        itemtype="http://schema.org/RealEstateAgent"> <img src="http://images.homefinder.com/normal/partiesRA/BRLOGO1/IMAGEJPG/5442513/544251303.JPG"
+        alt="logo" class="partyImage1" itemprop="logo" /> <div itemprop="brand"> The
+        Lipman Group Sotheby&#039;s International Realty </div> <div class="bold"
+        itemprop="member"> Jackie Karr </div> <p itemprop="telephone"> (877) 421-3966
+        </p> </div> </div> </div> </div> </div> <div id="searchResultsAdBetweenListings">
+        <div id=''div-gpt-ad-1358358147090-0'' style=''width:625px; height:24px;''>
+        <script> googletag.cmd.push(function() { googletag.display(''div-gpt-ad-1358358147090-0'');
+        }); </script> </div> </div> <div class="resultsBands last" itemscope itemtype="http://schema.org/Residence">
+        <div class="resultContent floatClear"> <div class="photoAndDescription floatClear">
+        <div class="propertyPhotoWrapper"> <div class="photoBorder"> <a href="http://www.homefinder.com/TN/Nashville/900-20th-Ave-South-1514-109206663d"
+        data-activity-type="clickthru" data-activity-listing-id-filter="109206663"
+        data-activity-page-from="Unknown" data-activity-page-to="listing_details">
+        <img class="propertyPhoto" itemprop="photo" alt="Home for sale: 900 20th Ave.
+        South, Nashville, TN 37212" title="Home for sale: 900 20th Ave. South, Nashville,
+        TN 37212" src="http://images.homefinder.com/normal/listings/EXTP/IMAGEJPG.56/1141563/570781542.JPG"
+        /> </a> </div> <div class="photoCounts floatClear"> <ul> <li> 20 Photos </li>
+        </ul> </div> </div> <div class="propertyInformation floatClear"> <div class="propertyDescription">
+        <div class="price"> $1,250,000 </div> <div class="addressContainer"> <a class="address"
+        href="http://www.homefinder.com/TN/Nashville/900-20th-Ave-South-1514-109206663d"
+        itemprop="url" data-activity-type="clickthru" data-activity-listing-id-filter="109206663"
+        data-activity-page-from="Unknown" data-activity-page-to="listing_details">
+        <span itemprop="address" itemscope itemtype="http://schema.org/PostalAddress">
+        <span itemprop="name">900 20th Ave. South, 1514, Nashville, TN 37212</span>
+        <meta itemprop="streetAddress" content="900 20th Ave. South" /> <meta itemprop="addressLocality"
+        content="Nashville" /> <meta itemprop="addressRegion" content="TN" /> <meta
+        itemprop="postalCode" content="37212" /> <meta itemprop="addressCountry" content="United
+        States" /> </span> </a> </div> <div class="propertyType"> Condominium Unit
+        </div> <div class="attributes"> <span class="beds">Beds: 2</span> <span class="baths">Baths:
+        2 Full, 1 Half</span> </div> <div class="bandLinks"> <a class="btn secondary"
+        title="Property details for: 900 20th Ave. South, Nashville, TN 37212" href="http://www.homefinder.com/TN/Nashville/900-20th-Ave-South-1514-109206663d"
+        data-activity-type="clickthru" data-activity-listing-id-filter="109206663"
+        data-activity-page-from="Unknown" data-activity-page-to="listing_details">View
+        Details</a> <div class="saveRemoveWrapper saveProperty"> <a data-handler="ListingSaver"
+        href="#" rel="paId109206663"> <span>&#9829; Save</span> </a> </div> </div>
+        <div class="floatClear"></div> </div> <div class="partySection" itemscope
+        itemtype="http://schema.org/RealEstateAgent"> <img src="http://images.homefinder.com/normal/partiesRA/BRLOGO1/IMAGEGIF/6836358/683635859.GIF"
+        alt="logo" class="partyImage1" itemprop="logo" /> <div itemprop="brand"> Parks
+        </div> <div class="bold" itemprop="member"> Shane Tallant </div> <p itemprop="telephone">
+        (855) 444-6470 </p> </div> </div> </div> </div> </div> <div class="resultsBands
+        last" itemscope itemtype="http://schema.org/Residence"> <div class="resultContent
+        floatClear"> <div class="photoAndDescription floatClear"> <div class="propertyPhotoWrapper">
+        <div class="photoBorder"> <a href="http://www.homefinder.com/TN/Nashville/319-Plus-Park-Blvd-109348491d"
+        data-activity-type="clickthru" data-activity-listing-id-filter="109348491"
+        data-activity-page-from="Unknown" data-activity-page-to="listing_details">
+        <img class="propertyPhoto" itemprop="photo" alt="Home for sale: 319 Plus Park
+        Blvd., Nashville, TN 37217" title="Home for sale: 319 Plus Park Blvd., Nashville,
+        TN 37217" src="http://images.homefinder.com/normal/listings/EXTP/IMAGEJPG.58/1165575/582787850.JPG"
+        /> </a> </div> <div class="photoCounts floatClear"> <ul> <li> 20 Photos </li>
+        </ul> </div> </div> <div class="propertyInformation floatClear"> <div class="propertyDescription">
+        <div class="price"> $1,100,000 </div> <div class="addressContainer"> <a class="address"
+        href="http://www.homefinder.com/TN/Nashville/319-Plus-Park-Blvd-109348491d"
+        itemprop="url" data-activity-type="clickthru" data-activity-listing-id-filter="109348491"
+        data-activity-page-from="Unknown" data-activity-page-to="listing_details">
+        <span itemprop="address" itemscope itemtype="http://schema.org/PostalAddress">
+        <span itemprop="name">319 Plus Park Blvd., Nashville, TN 37217</span> <meta
+        itemprop="streetAddress" content="319 Plus Park Blvd." /> <meta itemprop="addressLocality"
+        content="Nashville" /> <meta itemprop="addressRegion" content="TN" /> <meta
+        itemprop="postalCode" content="37217" /> <meta itemprop="addressCountry" content="United
+        States" /> </span> </a> </div> <div class="propertyType"> Commercial Building
+        </div> <div class="bandLinks"> <a class="btn secondary" title="Property details
+        for: 319 Plus Park Blvd., Nashville, TN 37217" href="http://www.homefinder.com/TN/Nashville/319-Plus-Park-Blvd-109348491d"
+        data-activity-type="clickthru" data-activity-listing-id-filter="109348491"
+        data-activity-page-from="Unknown" data-activity-page-to="listing_details">View
+        Details</a> <div class="saveRemoveWrapper saveProperty"> <a data-handler="ListingSaver"
+        href="#" rel="paId109348491"> <span>&#9829; Save</span> </a> </div> </div>
+        <div class="floatClear"></div> </div> <div class="partySection" itemscope
+        itemtype="http://schema.org/RealEstateAgent"> <div itemprop="brand"> Felts
+        Jackson Waggoner Real Estate Services </div> <div class="bold" itemprop="member">
+        Pat Waggoner </div> <p itemprop="telephone"> (855) 418-4535 </p> </div> </div>
+        </div> </div> </div> <div class="resultsBands last" itemscope itemtype="http://schema.org/SingleFamilyResidence">
+        <div class="resultContent floatClear"> <div class="photoAndDescription floatClear">
+        <div class="propertyPhotoWrapper"> <div class="photoBorder"> <a href="http://www.homefinder.com/TN/Nashville/4320-Wallace-Ln-110541812d"
+        data-activity-type="clickthru" data-activity-listing-id-filter="110541812"
+        data-activity-page-from="Unknown" data-activity-page-to="listing_details">
+        <img class="propertyPhoto" itemprop="photo" alt="Home for sale: 4320 Wallace
+        Ln., Nashville, TN 37215" title="Home for sale: 4320 Wallace Ln., Nashville,
+        TN 37215" src="http://images.homefinder.com/normal/listings/EXTP/IMAGEJPG.58/1172803/586401914.JPG"
+        /> </a> </div> <div class="photoCounts floatClear"> <ul> <li> 20 Photos </li>
+        </ul> </div> </div> <div class="propertyInformation floatClear"> <div class="propertyDescription">
+        <div class="price"> $1,100,000 <span class="reducedText"> (Reduced 09/03/14)
+        </span> </div> <div class="addressContainer"> <a class="address" href="http://www.homefinder.com/TN/Nashville/4320-Wallace-Ln-110541812d"
+        itemprop="url" data-activity-type="clickthru" data-activity-listing-id-filter="110541812"
+        data-activity-page-from="Unknown" data-activity-page-to="listing_details">
+        <span itemprop="address" itemscope itemtype="http://schema.org/PostalAddress">
+        <span itemprop="name">4320 Wallace Ln., Nashville, TN 37215</span> <meta itemprop="streetAddress"
+        content="4320 Wallace Ln." /> <meta itemprop="addressLocality" content="Nashville"
+        /> <meta itemprop="addressRegion" content="TN" /> <meta itemprop="postalCode"
+        content="37215" /> <meta itemprop="addressCountry" content="United States"
+        /> </span> </a> </div> <div class="propertyType"> Single Family Home </div>
+        <div class="attributes"> <span class="beds">Beds: 4</span> <span class="baths">Baths:
+        4 Full, 1 Half</span> </div> <div class="bandLinks"> <a class="btn secondary"
+        title="Property details for: 4320 Wallace Ln., Nashville, TN 37215" href="http://www.homefinder.com/TN/Nashville/4320-Wallace-Ln-110541812d"
+        data-activity-type="clickthru" data-activity-listing-id-filter="110541812"
+        data-activity-page-from="Unknown" data-activity-page-to="listing_details">View
+        Details</a> <div class="saveRemoveWrapper saveProperty"> <a data-handler="ListingSaver"
+        href="#" rel="paId110541812"> <span>&#9829; Save</span> </a> </div> </div>
+        <div class="floatClear"></div> </div> <div class="partySection" itemscope
+        itemtype="http://schema.org/RealEstateAgent"> <img src="http://images.homefinder.com/normal/partiesRA/BRLOGO1/IMAGEJPG/6782785/678278593.JPG"
+        alt="logo" class="partyImage1" itemprop="logo" /> <div itemprop="brand"> Christianson,
+        Patterson, Courtney &amp; Associates </div> <div class="bold" itemprop="member">
+        Richard Courtney </div> <p itemprop="telephone"> (855) 444-5357 </p> </div>
+        </div> </div> </div> </div> <div class="resultsBands last" itemscope itemtype="http://schema.org/SingleFamilyResidence">
+        <div class="resultContent floatClear"> <div class="photoAndDescription floatClear">
+        <div class="propertyPhotoWrapper"> <div class="photoBorder"> <a href="http://www.homefinder.com/TN/Nashville/6617-Rolling-Fork-Dr-107332135d"
+        data-activity-type="clickthru" data-activity-listing-id-filter="107332135"
+        data-activity-page-from="Unknown" data-activity-page-to="listing_details">
+        <img class="propertyPhoto" itemprop="photo" alt="Home for sale: 6617 Rolling
+        Fork Dr., Nashville, TN 37205" title="Home for sale: 6617 Rolling Fork Dr.,
+        Nashville, TN 37205" src="http://images.homefinder.com/normal/listings/EXTP/IMAGEJPG.54/1096233/548116928.JPG"
+        /> </a> </div> <div class="photoCounts floatClear"> <ul> <li> 19 Photos </li>
+        <li> | Virtual Tour </li> </ul> </div> </div> <div class="propertyInformation
+        floatClear"> <div class="propertyDescription"> <div class="price"> $1,095,000
+        </div> <div class="addressContainer"> <a class="address" href="http://www.homefinder.com/TN/Nashville/6617-Rolling-Fork-Dr-107332135d"
+        itemprop="url" data-activity-type="clickthru" data-activity-listing-id-filter="107332135"
+        data-activity-page-from="Unknown" data-activity-page-to="listing_details">
+        <span itemprop="address" itemscope itemtype="http://schema.org/PostalAddress">
+        <span itemprop="name">6617 Rolling Fork Dr., Nashville, TN 37205</span> <meta
+        itemprop="streetAddress" content="6617 Rolling Fork Dr." /> <meta itemprop="addressLocality"
+        content="Nashville" /> <meta itemprop="addressRegion" content="TN" /> <meta
+        itemprop="postalCode" content="37205" /> <meta itemprop="addressCountry" content="United
+        States" /> </span> </a> </div> <div class="propertyType"> Single Family Home
+        </div> <div class="attributes"> <span class="beds">Beds: 4</span> <span class="baths">Baths:
+        4 Full, 1 Half</span> </div> <div class="bandLinks"> <a class="btn secondary"
+        title="Property details for: 6617 Rolling Fork Dr., Nashville, TN 37205" href="http://www.homefinder.com/TN/Nashville/6617-Rolling-Fork-Dr-107332135d"
+        data-activity-type="clickthru" data-activity-listing-id-filter="107332135"
+        data-activity-page-from="Unknown" data-activity-page-to="listing_details">View
+        Details</a> <div class="saveRemoveWrapper saveProperty"> <a data-handler="ListingSaver"
+        href="#" rel="paId107332135"> <span>&#9829; Save</span> </a> </div> </div>
+        <div class="floatClear"></div> </div> <div class="partySection" itemscope
+        itemtype="http://schema.org/RealEstateAgent"> <img src="http://images.homefinder.com/normal/partiesRA/BRLOGO1/IMAGEJPG/3505627/350562731.JPG"
+        alt="logo" class="partyImage1" itemprop="logo" /> <div itemprop="brand"> RE/MAX
+        Elite </div> <div class="bold" itemprop="member"> Patricia Straus </div> <p
+        itemprop="telephone"> (888) 618-4703 </p> </div> </div> </div> </div> </div>
+        <div class="resultsBands last" itemscope itemtype="http://schema.org/Residence">
+        <div class="resultContent floatClear"> <div class="photoAndDescription floatClear">
+        <div class="propertyPhotoWrapper"> <div class="photoBorder"> <a href="http://www.homefinder.com/TN/Nashville/0-Skyline-Ctr-Ct-104886907d"
+        data-activity-type="clickthru" data-activity-listing-id-filter="104886907"
+        data-activity-page-from="Unknown" data-activity-page-to="listing_details">
+        <img class="propertyPhoto" itemprop="photo" alt="Home for sale: 0 Skyline
+        Ctr. Ct., Nashville, TN 37207" title="Home for sale: 0 Skyline Ctr. Ct., Nashville,
+        TN 37207" src="http://images.homefinder.com/normal/listings/EXTP/IMAGEJPG.51/1037836/518918155.JPG"
+        /> </a> </div> <div class="photoCounts floatClear"> </div> </div> <div class="propertyInformation
+        floatClear"> <div class="propertyDescription"> <div class="price"> $1,011,000
+        </div> <div class="addressContainer"> <a class="address" href="http://www.homefinder.com/TN/Nashville/0-Skyline-Ctr-Ct-104886907d"
+        itemprop="url" data-activity-type="clickthru" data-activity-listing-id-filter="104886907"
+        data-activity-page-from="Unknown" data-activity-page-to="listing_details">
+        <span itemprop="address" itemscope itemtype="http://schema.org/PostalAddress">
+        <span itemprop="name">0 Skyline Ctr. Ct., Nashville, TN 37207</span> <meta
+        itemprop="streetAddress" content="0 Skyline Ctr. Ct." /> <meta itemprop="addressLocality"
+        content="Nashville" /> <meta itemprop="addressRegion" content="TN" /> <meta
+        itemprop="postalCode" content="37207" /> <meta itemprop="addressCountry" content="United
+        States" /> </span> </a> </div> <div class="propertyType"> Commercial Building
+        </div> <div class="bandLinks"> <a class="btn secondary" title="Property details
+        for: 0 Skyline Ctr. Ct., Nashville, TN 37207" href="http://www.homefinder.com/TN/Nashville/0-Skyline-Ctr-Ct-104886907d"
+        data-activity-type="clickthru" data-activity-listing-id-filter="104886907"
+        data-activity-page-from="Unknown" data-activity-page-to="listing_details">View
+        Details</a> <div class="saveRemoveWrapper saveProperty"> <a data-handler="ListingSaver"
+        href="#" rel="paId104886907"> <span>&#9829; Save</span> </a> </div> </div>
+        <div class="floatClear"></div> </div> <div class="partySection" itemscope
+        itemtype="http://schema.org/RealEstateAgent"> <img src="http://images.homefinder.com/normal/partiesRA/BRLOGO1/IMAGEJPG/3158673/315867352.JPG"
+        alt="logo" class="partyImage1" itemprop="logo" /> <div itemprop="brand"> Rochford/Bell
+        </div> <div class="bold" itemprop="member"> Jarratt Bell </div> <p itemprop="telephone">
+        (855) 391-2937 </p> </div> </div> </div> </div> </div> <div class="resultsBands
+        last" itemscope itemtype="http://schema.org/Residence"> <div class="resultContent
+        floatClear"> <div class="photoAndDescription floatClear"> <div class="propertyPhotoWrapper">
+        <div class="photoBorder"> <a href="http://www.homefinder.com/TN/Nashville/3810-Gallatin-Pike-102496946d"
+        data-activity-type="clickthru" data-activity-listing-id-filter="102496946"
+        data-activity-page-from="Unknown" data-activity-page-to="listing_details">
+        <img class="propertyPhoto" itemprop="photo" alt="Home for sale: 3810 Gallatin
+        Pike, Nashville, TN 37216" title="Home for sale: 3810 Gallatin Pike, Nashville,
+        TN 37216" src="http://images.homefinder.com/normal/listings/EXTP/IMAGEJPG.48/989549/494774935.JPG"
+        /> </a> </div> <div class="photoCounts floatClear"> <ul> <li> 20 Photos </li>
+        <li> | Virtual Tour </li> </ul> </div> </div> <div class="propertyInformation
+        floatClear"> <div class="propertyDescription"> <div class="price"> $1,000,000
+        <span class="reducedText"> (Reduced 09/03/14) </span> </div> <div class="addressContainer">
+        <a class="address" href="http://www.homefinder.com/TN/Nashville/3810-Gallatin-Pike-102496946d"
+        itemprop="url" data-activity-type="clickthru" data-activity-listing-id-filter="102496946"
+        data-activity-page-from="Unknown" data-activity-page-to="listing_details">
+        <span itemprop="address" itemscope itemtype="http://schema.org/PostalAddress">
+        <span itemprop="name">3810 Gallatin Pike, Nashville, TN 37216</span> <meta
+        itemprop="streetAddress" content="3810 Gallatin Pike" /> <meta itemprop="addressLocality"
+        content="Nashville" /> <meta itemprop="addressRegion" content="TN" /> <meta
+        itemprop="postalCode" content="37216" /> <meta itemprop="addressCountry" content="United
+        States" /> </span> </a> </div> <div class="propertyType"> Commercial Building
+        </div> <div class="bandLinks"> <a class="btn secondary" title="Property details
+        for: 3810 Gallatin Pike, Nashville, TN 37216" href="http://www.homefinder.com/TN/Nashville/3810-Gallatin-Pike-102496946d"
+        data-activity-type="clickthru" data-activity-listing-id-filter="102496946"
+        data-activity-page-from="Unknown" data-activity-page-to="listing_details">View
+        Details</a> <div class="saveRemoveWrapper saveProperty"> <a data-handler="ListingSaver"
+        href="#" rel="paId102496946"> <span>&#9829; Save</span> </a> </div> </div>
+        <div class="floatClear"></div> </div> <div class="partySection" itemscope
+        itemtype="http://schema.org/RealEstateAgent"> <div itemprop="brand"> Felts
+        Jackson Waggoner Real Estate Services </div> <div class="bold" itemprop="member">
+        Pat Waggoner </div> <p itemprop="telephone"> (855) 418-4535 </p> </div> </div>
+        </div> </div> </div> <div class="resultsBands last" itemscope itemtype="http://schema.org/Residence">
+        <div class="resultContent floatClear"> <div class="photoAndDescription floatClear">
+        <div class="propertyPhotoWrapper"> <div class="photoBorder"> <a href="http://www.homefinder.com/TN/Nashville/1027-Battery-Ln-110376076d"
+        data-activity-type="clickthru" data-activity-listing-id-filter="110376076"
+        data-activity-page-from="Unknown" data-activity-page-to="listing_details">
+        <img class="propertyPhoto" itemprop="photo" alt="Home for sale: 1027 Battery
+        Ln., Nashville, TN 37220" title="Home for sale: 1027 Battery Ln., Nashville,
+        TN 37220" src="http://images.homefinder.com/normal/listings/EXTP/IMAGEJPG.58/1169095/584547923.JPG"
+        /> </a> </div> <div class="photoCounts floatClear"> <ul> <li> 3 Photos </li>
+        </ul> </div> </div> <div class="propertyInformation floatClear"> <div class="propertyDescription">
+        <div class="price"> $979,000 </div> <div class="addressContainer"> <a class="address"
+        href="http://www.homefinder.com/TN/Nashville/1027-Battery-Ln-110376076d" itemprop="url"
+        data-activity-type="clickthru" data-activity-listing-id-filter="110376076"
+        data-activity-page-from="Unknown" data-activity-page-to="listing_details">
+        <span itemprop="address" itemscope itemtype="http://schema.org/PostalAddress">
+        <span itemprop="name">1027 Battery Ln., Nashville, TN 37220</span> <meta itemprop="streetAddress"
+        content="1027 Battery Ln." /> <meta itemprop="addressLocality" content="Nashville"
+        /> <meta itemprop="addressRegion" content="TN" /> <meta itemprop="postalCode"
+        content="37220" /> <meta itemprop="addressCountry" content="United States"
+        /> </span> </a> </div> <div class="propertyType"> Building Lot </div> <div
+        class="bandLinks"> <a class="btn secondary" title="Property details for: 1027
+        Battery Ln., Nashville, TN 37220" href="http://www.homefinder.com/TN/Nashville/1027-Battery-Ln-110376076d"
+        data-activity-type="clickthru" data-activity-listing-id-filter="110376076"
+        data-activity-page-from="Unknown" data-activity-page-to="listing_details">View
+        Details</a> <div class="saveRemoveWrapper saveProperty"> <a data-handler="ListingSaver"
+        href="#" rel="paId110376076"> <span>&#9829; Save</span> </a> </div> </div>
+        <div class="floatClear"></div> </div> <div class="partySection" itemscope
+        itemtype="http://schema.org/RealEstateAgent"> <div itemprop="brand"> Felts
+        Jackson Waggoner Real Estate Services </div> <div class="bold" itemprop="member">
+        Pat Waggoner </div> <p itemprop="telephone"> (855) 418-4535 </p> </div> </div>
+        </div> </div> </div> <div class="resultsBands last" itemscope itemtype="http://schema.org/Residence">
+        <div class="resultContent floatClear"> <div class="photoAndDescription floatClear">
+        <div class="propertyPhotoWrapper"> <div class="photoBorder"> <a href="http://www.homefinder.com/TN/Nashville/2635-Nolensville-Pike-87725144d"
+        data-activity-type="clickthru" data-activity-listing-id-filter="87725144"
+        data-activity-page-from="Unknown" data-activity-page-to="listing_details">
+        <img class="propertyPhoto" itemprop="photo" alt="Home for sale: 2635 Nolensville
+        Pike, Nashville, TN 37211" title="Home for sale: 2635 Nolensville Pike, Nashville,
+        TN 37211" src="http://images.homefinder.com/normal/listings/EXTP/IMAGEJPG.37/767891/383945797.JPG"
+        /> </a> </div> <div class="photoCounts floatClear"> <ul> <li> 20 Photos </li>
+        </ul> </div> </div> <div class="propertyInformation floatClear"> <div class="propertyDescription">
+        <div class="price"> $975,000 </div> <div class="addressContainer"> <a class="address"
+        href="http://www.homefinder.com/TN/Nashville/2635-Nolensville-Pike-87725144d"
+        itemprop="url" data-activity-type="clickthru" data-activity-listing-id-filter="87725144"
+        data-activity-page-from="Unknown" data-activity-page-to="listing_details">
+        <span itemprop="address" itemscope itemtype="http://schema.org/PostalAddress">
+        <span itemprop="name">2635 Nolensville Pike, Nashville, TN 37211</span> <meta
+        itemprop="streetAddress" content="2635 Nolensville Pike" /> <meta itemprop="addressLocality"
+        content="Nashville" /> <meta itemprop="addressRegion" content="TN" /> <meta
+        itemprop="postalCode" content="37211" /> <meta itemprop="addressCountry" content="United
+        States" /> </span> </a> </div> <div class="propertyType"> Commercial Building
+        </div> <div class="bandLinks"> <a class="btn secondary" title="Property details
+        for: 2635 Nolensville Pike, Nashville, TN 37211" href="http://www.homefinder.com/TN/Nashville/2635-Nolensville-Pike-87725144d"
+        data-activity-type="clickthru" data-activity-listing-id-filter="87725144"
+        data-activity-page-from="Unknown" data-activity-page-to="listing_details">View
+        Details</a> <div class="saveRemoveWrapper saveProperty"> <a data-handler="ListingSaver"
+        href="#" rel="paId87725144"> <span>&#9829; Save</span> </a> </div> </div>
+        <div class="floatClear"></div> </div> <div class="partySection" itemscope
+        itemtype="http://schema.org/RealEstateAgent"> <img src="http://images.homefinder.com/normal/advertisers/0/0/0/0/2/6/0/260471/logos/100x125/0.png"
+        alt="logo" class="partyImage1" itemprop="logo" /> <div class="bold" itemprop="brand">
+        Coldwell Banker Barnes - Franklin Office </div> <div itemprop="member"> Felicia
+        Scott </div> <p itemprop="telephone"> (866) 598-6296 </p> </div> </div> </div>
+        </div> </div> <div class="resultsBands last" itemscope itemtype="http://schema.org/Residence">
+        <div class="resultContent floatClear"> <div class="photoAndDescription floatClear">
+        <div class="propertyPhotoWrapper"> <div class="photoBorder"> <a href="http://www.homefinder.com/TN/Nashville/0-Skyline-Ctr-Ct-103670646d"
+        data-activity-type="clickthru" data-activity-listing-id-filter="103670646"
+        data-activity-page-from="Unknown" data-activity-page-to="listing_details">
+        <img class="propertyPhoto" itemprop="photo" alt="Home for sale: 0 Skyline
+        Ctr. Ct., Nashville, TN 37207" title="Home for sale: 0 Skyline Ctr. Ct., Nashville,
+        TN 37207" src="http://images.homefinder.com/normal/listings/EXTP/IMAGEJPG.49/1011959/505979995.JPG"
+        /> </a> </div> <div class="photoCounts floatClear"> </div> </div> <div class="propertyInformation
+        floatClear"> <div class="propertyDescription"> <div class="price"> $960,000
+        </div> <div class="addressContainer"> <a class="address" href="http://www.homefinder.com/TN/Nashville/0-Skyline-Ctr-Ct-103670646d"
+        itemprop="url" data-activity-type="clickthru" data-activity-listing-id-filter="103670646"
+        data-activity-page-from="Unknown" data-activity-page-to="listing_details">
+        <span itemprop="address" itemscope itemtype="http://schema.org/PostalAddress">
+        <span itemprop="name">0 Skyline Ctr. Ct., Nashville, TN 37207</span> <meta
+        itemprop="streetAddress" content="0 Skyline Ctr. Ct." /> <meta itemprop="addressLocality"
+        content="Nashville" /> <meta itemprop="addressRegion" content="TN" /> <meta
+        itemprop="postalCode" content="37207" /> <meta itemprop="addressCountry" content="United
+        States" /> </span> </a> </div> <div class="propertyType"> Commercial Building
+        </div> <div class="bandLinks"> <a class="btn secondary" title="Property details
+        for: 0 Skyline Ctr. Ct., Nashville, TN 37207" href="http://www.homefinder.com/TN/Nashville/0-Skyline-Ctr-Ct-103670646d"
+        data-activity-type="clickthru" data-activity-listing-id-filter="103670646"
+        data-activity-page-from="Unknown" data-activity-page-to="listing_details">View
+        Details</a> <div class="saveRemoveWrapper saveProperty"> <a data-handler="ListingSaver"
+        href="#" rel="paId103670646"> <span>&#9829; Save</span> </a> </div> </div>
+        <div class="floatClear"></div> </div> <div class="partySection" itemscope
+        itemtype="http://schema.org/RealEstateAgent"> <img src="http://images.homefinder.com/normal/partiesRA/BRLOGO1/IMAGEJPG/3158673/315867352.JPG"
+        alt="logo" class="partyImage1" itemprop="logo" /> <div itemprop="brand"> Rochford/Bell
+        </div> <div class="bold" itemprop="member"> Jarratt Bell </div> <p itemprop="telephone">
+        (855) 391-2937 </p> </div> </div> </div> </div> </div> <div class="resultsBands
+        last" itemscope itemtype="http://schema.org/Residence"> <div class="resultContent
+        floatClear"> <div class="photoAndDescription floatClear"> <div class="propertyPhotoWrapper">
+        <div class="photoBorder"> <a href="http://www.homefinder.com/TN/Nashville/900-20th-Ave-S-Apt-615-110402154d"
+        data-activity-type="clickthru" data-activity-listing-id-filter="110402154"
+        data-activity-page-from="Unknown" data-activity-page-to="listing_details">
+        <img class="propertyPhoto" itemprop="photo" alt="Home for sale: 900 20th Ave.
+        S. Apt 615, Nashville, TN 37212" title="Home for sale: 900 20th Ave. S. Apt
+        615, Nashville, TN 37212" src="http://images.homefinder.com/normal/listings/EXTP/IMAGEJPG.58/1170008/585004052.JPG"
+        /> </a> </div> <div class="photoCounts floatClear"> <ul> <li> 20 Photos </li>
+        <li> | Virtual Tour </li> </ul> </div> </div> <div class="propertyInformation
+        floatClear"> <div class="propertyDescription"> <div class="price"> $949,900
+        </div> <div class="addressContainer"> <a class="address" href="http://www.homefinder.com/TN/Nashville/900-20th-Ave-S-Apt-615-110402154d"
+        itemprop="url" data-activity-type="clickthru" data-activity-listing-id-filter="110402154"
+        data-activity-page-from="Unknown" data-activity-page-to="listing_details">
+        <span itemprop="address" itemscope itemtype="http://schema.org/PostalAddress">
+        <span itemprop="name">900 20th Ave. S. Apt 615, Nashville, TN 37212</span>
+        <meta itemprop="streetAddress" content="900 20th Ave. S. Apt 615" /> <meta
+        itemprop="addressLocality" content="Nashville" /> <meta itemprop="addressRegion"
+        content="TN" /> <meta itemprop="postalCode" content="37212" /> <meta itemprop="addressCountry"
+        content="United States" /> </span> </a> </div> <div class="propertyType">
+        Condominium Unit </div> <div class="attributes"> <span class="beds">Beds:
+        2</span> <span class="baths">Baths: 2 Full, 1 Half</span> </div> <div class="bandLinks">
+        <a class="btn secondary" title="Property details for: 900 20th Ave. S. Apt
+        615, Nashville, TN 37212" href="http://www.homefinder.com/TN/Nashville/900-20th-Ave-S-Apt-615-110402154d"
+        data-activity-type="clickthru" data-activity-listing-id-filter="110402154"
+        data-activity-page-from="Unknown" data-activity-page-to="listing_details">View
+        Details</a> <div class="saveRemoveWrapper saveProperty"> <a data-handler="ListingSaver"
+        href="#" rel="paId110402154"> <span>&#9829; Save</span> </a> </div> </div>
+        <div class="floatClear"></div> </div> <div class="partySection" itemscope
+        itemtype="http://schema.org/RealEstateAgent"> <img src="http://images.homefinder.com/normal/advertisers/0/0/0/0/2/6/0/260441/logos/100x125/0.png"
+        alt="logo" class="partyImage1" itemprop="logo" /> <div itemprop="brand"> Fridrich
+        &amp; Clark Realty </div> <div class="bold" itemprop="member"> Keri Cannon
+        </div> <p itemprop="telephone"> (855) 382-3643 </p> </div> </div> </div> </div>
+        </div> <div class="floatClear"></div> <div id="googleAdsenseContainer"></div>
+        <div class="metaDataContainer"> <div class="metaDataBar floatClear"> <div
+        class="paginationContainer paginationFooter"> <div class="pagination"> <span
+        class="page"> Page 1 of 172 </span> <span class="prevNextContainer"> <a class="next
+        btn secondary" href="TN/Nashville/?page=2">Next</a> </span> </div> </div>
+        <div class="goTo"> <p class="gotoPage">Go to page:</p> <form action="search"
+        method="post"> <input type="hidden" name="resultsUrl" value="" /> <input type="hidden"
+        name="area" value="Nashville, TN" /> <input class="gotoInput" type="text"
+        name="page"/> <button class="btn secondary" type="submit" id="findHomesButton">
+        Go </button> </form> </div> <div class="metaDataFooter sortedBy"> </div> </div>
+        </div> <script> var resultsUrlForSortByDropdown = "http:\/\/www.homefinder.com\/"
+        + "TN\/Nashville\/"; </script> </div> </section> <aside> <div id="rightColumn">
+        <div class="cubeContainer"> <div class="cube1"> <div id=''div-gpt-ad-1320859315503-0''
+        style=''width:300px; height:250px;''> <script> googletag.cmd.push(function()
+        { googletag.display(''div-gpt-ad-1320859315503-0''); }); </script> </div>
+        </div> </div> <div class="cubeContainer"> <div class="cube2"> <div id=''div-gpt-ad-1320859457547-0''
+        style=''width:300px; height:250px;''> <script> googletag.cmd.push(function()
+        { googletag.display(''div-gpt-ad-1320859457547-0''); }); </script> </div>
+        </div> </div> <div id="resourceCenterHolder"> <div id="resourceCenterHeader">
+        <h2>Resource Center</h2> </div> <div id="resourceCenterBody" class="floatClear">
+        <div class="singleResource"> <div class="leftResource"> <img src="http://www.homefinder.com/media/image/resourceCenter/MortgageCenter-green.png"
+        alt="Mortgage Center" /> </div> <div class="rightResource"> <div>Mortgage
+        Center</div> <a class="trackMortgage" rel="nofollow" href="http://www.homefinder.com/mortgage/">Near
+        Record Low Rates from Lenders</a> </div> </div> <div class="singleResource">
+        <div class="leftResource"> <img src="http://www.homefinder.com/media/image/resourceCenter/Moving-green.png"
+        alt="Moving" /> </div> <div class="rightResource"> <div>Moving</div> <a rel="external"
+        data-category="Outgoing link" data-action="Click" data-label="movingcompanyreviews
+        - resource center" target="_blank" href="http://www.movingcompanyreviews.com/TN/Nashville">
+        Nashville Movers </a> <a rel="external" data-category="Outgoing link" data-action="Click"
+        data-label="movingtruck - resource center" href="http://www.movingtruck.com/TN/Nashville"
+        target="_blank"> Nashville Moving Trucks </a> <a rel="external" data-category="Outgoing
+        link" data-action="Click" data-label="movingtruck-storage - resource center"
+        href="http://www.movingtruck.com/storage/TN/Nashville" target="_blank"> Nashville
+        Storage </a> </div> </div> <div class="floatClear"></div> <div class="resourceCtrAd"
+        id="div-gpt-ad-1393350511370-0"> <script> googletag.cmd.push(function() {
+        googletag.display("div-gpt-ad-1393350511370-0"); }); </script> </div> <div
+        class="resourceCtrAd" id="div-gpt-ad-1393350664406-0"> <script> googletag.cmd.push(function()
+        { googletag.display("div-gpt-ad-1393350664406-0"); }); </script> </div> <div
+        class="resourceCtrAd" id="div-gpt-ad-1393350747140-0"> <script> googletag.cmd.push(function()
+        { googletag.display("div-gpt-ad-1393350747140-0"); }); </script> </div> </div>
+        </div> <div id="nearbyAreasContainer"> <h4> Real Estate in Nearby Areas </h4>
+        <ul id="cityList"> <li> <a href="http://www.homefinder.com/TN/Antioch/" class="text">Antioch
+        Homes</a> <br /> <a href="http://www.homefinder.com/TN/Bellevue/" class="text">Bellevue
+        Homes</a> <br /> <a href="http://www.homefinder.com/TN/Cane-Ridge/" class="text">Cane
+        Ridge Homes</a> <br /> <a href="http://www.homefinder.com/TN/Forest-Hills/"
+        class="text">Forest Hills Homes</a> <br /> <a href="http://www.homefinder.com/TN/Goodlettsville/"
+        class="text">Goodlettsville Homes</a> <br /> <a href="http://www.homefinder.com/TN/Madison/"
+        class="text">Madison Homes</a> <br /> <a href="http://www.homefinder.com/TN/Melrose/"
+        class="text">Melrose Homes</a> <br /> <a href="http://www.homefinder.com/TN/Oak-Hill/"
+        class="text">Oak Hill Homes</a> <br /> </li> </ul> </div> <div class="searchResultsFeaturedMoverAd"
+        id="div-gpt-ad-1361901273289-0"> <script> googletag.cmd.push(function() {
+        googletag.display("div-gpt-ad-1361901273289-0"); }); </script> </div> <div
+        class="communityWrapper"> <div class="communityContainer"> <h4 class="communityInfoHeader">Community
+        Information</h4> <h6 class="communityInfoHeader">Nashville, TN</h6> <div class="communityInformationZip
+        sectionDivider"> <h5 class="communityInfoHeader">Community Information for
+        37211</h5> <p>Population: 71,010</p> <p>Median Age: 33</p> <p>Median Household
+        Income: $49,473</p> <p>Households with Children: 45.07%</p> <p>Median Travel
+        Time to Work: 25 minutes</p> </div> <div class="realEstateMarketInfo sectionDivider">
+        <h5 class="communityInfoHeader">Real Estate Market Information</h5> <p>Median
+        years in residence: 8</p> <p>Homes Owned: 46.26%</p> <p>Homes Rented: 49.44%</p>
+        <p>Homes Vacant: 4.30%</p> </div> </div> </div> <div class="mcrWidget"> <div
+        id="topMoversWidget" data-handler="TopMoversWidget" data-mcr-zip="37211" data-mcr-page-type="searchResults"
+        data-mcr-property-type="" data-mcr-beds="" data-mcr-price="" data-mcr-rental="false">
+        </div> </div> <div class="skyscraper" id=''div-gpt-ad-1320859572309-0'' style=''width:300px;
+        height:1050px;''> <script> googletag.cmd.push(function() { googletag.display(''div-gpt-ad-1320859572309-0'');
+        }); </script> </div> </div> </aside> </div> <div id="resultsMMASlot"></div>
+        <div id="fullWidthBottomSection"> <div class="hfFooterWrapper"> <span class="hidden">Webservice
+        execution time: 0.44457697868347</span> <div class="mainContainer"> </div>
+        </div> </div> <div class="footerAd" id="div-gpt-ad-1320859649507-0"> <script>
+        googletag.cmd.push(function() { googletag.display("div-gpt-ad-1320859649507-0");
+        }); </script> </div> <footer id="footer" class="noPrint"> <div class="footerContainer">
+        <div class="footerColumns"> <div> <h5>HomeFinder.com</h5> <ul> <li> <a href="http://aboutus.homefinder.com/">About
+        HomeFinder.com</a> </li> <li> <a href="http://aboutus.homefinder.com/management/">Management
+        Team</a> </li> <li> <a href="http://aboutus.homefinder.com/ournetwork/">Our
+        Network</a> </li> <li> <a href="http://mediacenter.homefinder.com">Media Center</a>
+        </li> <li> <a href="http://aboutus.homefinder.com/careers/">Careers</a></li>
+        </li> <li> <a href="http://homefinder.zendesk.com/hc/">Support Center</a>
+        </li> <li> <a href="http://www.homefinder.com/company/contact">Contact Us</a>
+        </li> <li> <a href="http://www.homefinder.com/advertise/">Advertise with HomeFinder.com</a>
+        </li> </ul> </div> <div> <h5>Partner Sites</h5> <ul> <li> <a rel="nofollow"
+        href="http://www.apartments.com/" title="Search apartments for rent">Apartments.com</a>
+        </li> <li> <a rel="nofollow" href="http://www.movingcompanyreviews.com">MovingCompanyReviews.com</a>
+        </li> <li> <a rel="nofollow" href="http://www.movingtruck.com/">MovingTruck.com</a>
+        </li> </ul> <h5 class="mobileSection">Mobile</h5> <ul class="mobileLinks">
+        <li> <a class="offerings" href="http://www.homefinder.com/mobile/info">Our
+        Mobile Offerings</a> </li> <li> <a class="androidLink" href="https://play.google.com/store/apps/details?id=com.homefinder.android&amp;referrer=utm_source%3Ddesktop%2520site%26utm_medium%3Dfooter%26utm_campaign%3Dsite%2520wide%2520link"
+        target="_blank"><span class="icon-android"></span>HomeFinder.com for Android</a>
+        </li> <li> <a class="iphoneLink" rel="external" data-category="promotion"
+        data-action="desktop footer" href="https://itunes.apple.com/us/app/homefinder.com-real-estate/id593048333?mt=8&amp;uo=4"
+        target="_blank"><span class="icon-mobile"></span>HomeFinder.com for iPhone</a>
+        </li> </ul> </div> <div> <h5>Home Buying Resources</h5> <ul> <li> <a href="http://www.homefinder.com/states/">Homes
+        for Sale</a> </li> <li> <a href="http://www.homefinder.com/mortgage/">Mortgage
+        Rates</a> </li> <li> <a href="http://www.homefinder.com/open-house/">Open
+        House Listings</a> </li> <li> <a href="http://www.homefinder.com/real-estate-news/">Buying
+        Guide</a> </li> <li> <a href="http://www.homefinder.com/content/Buying-Guide:Determining_if_a_Foreclosure_Home_is_Right_for_You">Foreclosure
+        Guide</a> </li> <li> <a href="http://www.homefinder.com/content/Buying-Guide:Green_Qualities_to_Look_for_in_a_Home">Green
+        Homes Guide</a> </li> <li> <a href="http://blog.homefinder.com/">Blog</a>
+        </li> </ul> </div> <div> <h5>Agent &amp; Broker Resources</h5> <ul> <li> <a
+        href="http://www.homefinder.com/agents-and-brokers/">Agents &amp; Brokers</a>
+        </li> <li> <a href="https://www.homefinder.com/advertiserCenter/">Advertiser
+        Center</a> </li> <li> <a href="http://www.homefinder.com/openhomepro/">Open
+        Home Pro</a> </li> <li> <a href="http://www.homefinder.com/my-market-ads/">My
+        Market Ads</a> </li> <li> <a href="https://www.homefinder.com/single-property-website/">Single
+        Property Websites</a> </li> <li> <a href="http://www.homefinder.com/widgets/">HomeFinder
+        Widgets</a> </li> </ul> <h5>Follow Us</h5> <ul class="socialLinks"> <li> <a
+        class="icon-facebook-circled" href="https://www.facebook.com/homefinderconsumer"
+        target="_blank" title="Facebook"></a> </li> <li> <a class="icon-twitter-circled"
+        href="https://twitter.com/#!/HomeFinder1" target="_blank" title="Twitter"></a>
+        </li> <li> <a class="icon-gplus-circled" href="https://plus.google.com/117207383716356961791/posts"
+        target="_blank" title="Google+"></a> </li> <li> <a class="icon-pinterest-circled"
+        href="http://pinterest.com/homefindercom/" target="_blank" title="Pinterest"></a>
+        </li> <li> <a class="icon-youtube" href="https://www.youtube.com/channel/UCcl4FP0MH22xQMhC-OuhEIg"
+        target="_blank" title="YouTube"></a> </li> </ul> </div> </div> </div> </footer>
+        <footer id="footerBar"> <p> &copy; 2014 HomeFinder.com, LLC </p> <nav> <a
+        href="http://aboutus.homefinder.com/equal-housing-opportunity/" target="_parent"
+        class="eho">Equal Housing Opportunity</a> | <a href="http://aboutus.homefinder.com/termsofservice/">Terms
+        of Use</a> | <a href="http://aboutus.homefinder.com/privacypolicy/">Privacy
+        Policy</a> </nav> </footer> <div id="cobrandFooterMenu"></div> <div id="ClickTaleDiv"
+        style="display: none;"></div> <script> var WRInitTime = (new Date()).getTime();
+        if (document.location.protocol !== ''https:'') document.write(unescape("%3Cscript%20src=''http://s.clicktale.net/WRc5.js''%3E%3C/script%3E"));
+        if (typeof ClickTale === ''function'') ClickTale(13761,0.00025,"www03"); </script>
+        <script src="http://www.homefinder.com/js/global.js?ver=131664c7637f5dec8fe060d3478db8a2"
+        ></script> <script> Homescape.Reporting.referrer = "realestate"; </script>
+        <script id="inspectletjs"> var inspectletKey = 958682429; window.__insp =
+        window.__insp || []; __insp.push([''wid'', inspectletKey]); (function() {
+        function __ldinsp(){var insp = document.createElement(''script''); insp.type
+        = ''text/javascript''; insp.async = true; insp.id = "inspsync"; insp.src =
+        (''https:'' == document.location.protocol ? ''https'' : ''http'') + ''://cdn.inspectlet.com/inspectlet.js'';
+        var x = document.getElementsByTagName(''script'')[0]; x.parentNode.insertBefore(insp,
+        x); } if (window.attachEvent){ window.attachEvent(''onload'', __ldinsp); }else{
+        window.addEventListener(''load'', __ldinsp, false); } })(); </script> <script>
+        myhf.impressionData = {"activityType":"impression","activitySubType":"search_impression","affiliate":"realestate","listings":{"107855870":{"agent":{"id":"262778","isEnhanced":true},"broker":{"id":"260471","isEnhanced":true},"dataSource":{"id":"3503119","isEnhanced":false}},"106647963":{"agent":{"id":"4592384","isEnhanced":false},"broker":{"id":"260471","isEnhanced":true},"dataSource":{"id":"3503119","isEnhanced":false}},"110113577":{"agent":{"id":"707170","isEnhanced":true},"broker":{"id":"260418","isEnhanced":false},"dataSource":{"id":"3503119","isEnhanced":false}},"108579809":{"agent":{"id":"268003","isEnhanced":true},"broker":{"id":"5006130","isEnhanced":false},"dataSource":{"id":"3503119","isEnhanced":false}},"105531204":{"agent":{"id":"262188","isEnhanced":true},"broker":{"id":"244886","isEnhanced":false},"dataSource":{"id":"3503119","isEnhanced":false}},"103670643":{"agent":{"id":"1707826","isEnhanced":true},"broker":{"id":"260631","isEnhanced":false},"dataSource":{"id":"3503119","isEnhanced":false}},"96667435":{"agent":{"id":"264772","isEnhanced":true},"broker":{"id":"260439","isEnhanced":false},"dataSource":{"id":"3503119","isEnhanced":false}},"106556125":{"agent":{"id":"268003","isEnhanced":true},"broker":{"id":"5006130","isEnhanced":false},"dataSource":{"id":"3503119","isEnhanced":false}},"106962595":{"agent":{"id":"2095623","isEnhanced":true},"broker":{"id":"1089324","isEnhanced":false},"dataSource":{"id":"3503119","isEnhanced":false}},"109143890":{"agent":{"id":"763765","isEnhanced":true},"broker":{"id":"260611","isEnhanced":false},"dataSource":{"id":"3503119","isEnhanced":false}},"109206663":{"agent":{"id":"5277951","isEnhanced":true},"broker":{"id":"5055642","isEnhanced":false},"dataSource":{"id":"3503119","isEnhanced":false}},"109348491":{"agent":{"id":"371325","isEnhanced":true},"broker":{"id":"2768362","isEnhanced":false},"dataSource":{"id":"3503119","isEnhanced":false}},"110541812":{"agent":{"id":"268003","isEnhanced":true},"broker":{"id":"5006130","isEnhanced":false},"dataSource":{"id":"3503119","isEnhanced":false}},"107332135":{"agent":{"id":"707170","isEnhanced":true},"broker":{"id":"260418","isEnhanced":false},"dataSource":{"id":"3503119","isEnhanced":false}},"104886907":{"agent":{"id":"1707826","isEnhanced":true},"broker":{"id":"260631","isEnhanced":false},"dataSource":{"id":"3503119","isEnhanced":false}},"102496946":{"agent":{"id":"371325","isEnhanced":true},"broker":{"id":"2768362","isEnhanced":false},"dataSource":{"id":"3503119","isEnhanced":false}},"110376076":{"agent":{"id":"371325","isEnhanced":true},"broker":{"id":"2768362","isEnhanced":false},"dataSource":{"id":"3503119","isEnhanced":false}},"87725144":{"agent":{"id":"4691621","isEnhanced":false},"broker":{"id":"260471","isEnhanced":true},"dataSource":{"id":"3503119","isEnhanced":false}},"103670646":{"agent":{"id":"1707826","isEnhanced":true},"broker":{"id":"260631","isEnhanced":false},"dataSource":{"id":"3503119","isEnhanced":false}},"110402154":{"agent":{"id":"761338","isEnhanced":true},"broker":{"id":"260441","isEnhanced":false},"dataSource":{"id":"3503119","isEnhanced":false}}}};
+        var featuredPropertiesUrl = "_featuredProperties.php?area=Nashville%2C+TN";
+        var latitude = 36.068394; var longitude = -86.722649; Homescape.geo = Homescape.geo
+        || {}; Homescape.geo.area = "Nashville, TN"; Homescape.Reporting.pageName
+        = "searchResults"; var listingsZipCodes = [37211,37210,37205,37215,37220,37207,37218,37212,37217,37216];
+        var listingsAreasByZipCodes = {"37211":"Nashville","37210":"Nashville","37205":"Nashville","37215":"Nashville","37220":"Nashville","37207":"Nashville","37218":"Nashville","37212":"Nashville","37217":"Nashville","37216":"Nashville"};
+        var searchedAreaForDisplay = "Nashville, TN"; HomeFinder = HomeFinder || {};
+        HomeFinder.searchParameters = {"isActiveAdultCommunity":false,"isAssistedLivingCommunity":false,"hasBasement":false,"isBeachProperty":false,"hasBrickExterior":false,"areCatsAllowed":false,"hasCentralAir":false,"hasFamilyRoom":false,"areDogsAllowed":false,"hasDiningRoom":false,"isFeatured":false,"hasFireplace":false,"hasGarage":false,"hasGasHeat":false,"isGatedCommunity":false,"isGolfCommunity":false,"isEcoFriendly":false,"isHorseProperty":false,"isMaintenanceFreeCommunity":false,"hasOpenHouse":false,"isResidentialCommunity":false,"hasSwimmingPool":false,"isWaterfrontProperty":false,"isWheelchairAccessible":false,"latitude":null,"longitude":null,"maxAgeOfHome":null,"minAgeOfHome":null,"maxBath":null,"minBath":null,"maxBed":null,"minBed":null,"id":[],"page":1,"partyId":null,"maxPrice":null,"minPrice":null,"radius":null,"resultSize":25,"maxSquareFootage":null,"minSquareFootage":null,"tab":1,"advertiserType":null,"area":"Nashville,
+        TN","partyIdType":null,"partyName":null,"communityAvailability":null,"constructionStatus":null,"mlsId":[],"maxOpenHouseDate":null,"minOpenHouseDate":null,"propertyType":[],"sort":["price_desc"],"keyword":null,"hasFeaturedVideo":false,"_returnRealtyTracListings":true,"_returnListingMedia":true,"_returnParties":true,"_applyBusinessRules":true,"facet":[],"facetLimit":6,"streetAddress":null,"alertUpdateDate":null,"collapse":null,"siteFilesName":"realestate","referrerDomainName":null,"soldDaysAgo":null,"includeRecentlySoldCountInSearchByTypeFacet":false};
+        </script> <script src="http://www.homefinder.com/js/search/listingResults.js?ver=131664c7637f5dec8fe060d3478db8a2"
+        ></script> <script src="//ips-invite.iperceptions.com/webValidator.aspx?sdfc=99fbab2d-106656-262575f6-9106-4561-b69d-5b3645080c13&amp;lID=1&amp;loc=STUDY&amp;cD=90&amp;rF=False&amp;iType=1&amp;domainname=0"
+        defer="defer" ></script> <div class="wrapperContainerForAd" id="div-gpt-ad-1368640930618-0">
+        <script> googletag.cmd.push(function() { googletag.display("div-gpt-ad-1368640930618-0");
+        }); </script> </div> </body> </html>'
+    http_version: 
+  recorded_at: Wed, 24 Sep 2014 14:46:44 GMT
+recorded_with: VCR 2.9.3

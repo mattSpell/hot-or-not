@@ -1,6 +1,7 @@
 class Home < ActiveRecord::Base
   has_many :viewed_homes
   has_many :users, through: :viewed_homes
+  validates_uniqueness_of :photo_url
   default_scope ->{ order("homes.created_at DESC") }
 
   def self.update_home(user, fav, home_id)

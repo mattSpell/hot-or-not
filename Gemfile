@@ -15,6 +15,7 @@ gem 'devise'
 gem 'haml'
 gem 'pry'
 gem 'figaro'
+gem 'whenever', :require => false
 
 # Bundle edge Rails instead: gem 'rails', github: 'rails/rails'
 gem 'rails', '4.1.4'
@@ -53,6 +54,8 @@ group :test do
   gem 'launchy'
   gem 'shoulda'
   gem 'poltergeist'
+  gem 'vcr'
+  gem 'webmock'
 end
 
 group :production do

@@ -2,6 +2,7 @@ require 'rails_helper'
 
 RSpec.describe Home, :type => :model do
   it { should have_many :viewed_homes }
+  it { should validate_uniqueness_of :photo_url }
 
   let!(:user){ Fabricate(:user) }
   let!(:home1){ Fabricate(:home) }

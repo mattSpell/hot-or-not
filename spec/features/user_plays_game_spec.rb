@@ -16,7 +16,7 @@ feature "user plays the game" do
     click_on "Play"
     expect(page).to have_css("img.thumbnail")
     expect(page).to have_css("h3.list-price")
-    expect(page).to have_css("p.address")
+    expect(page).to have_css("p.addy")
     expect(page).to have_css("p.desc")
   end
 
@@ -62,7 +62,7 @@ feature "user plays the game" do
     expect(page).to have_text("$275,000")
     click_on "Hot"
     expect(page).to have_text("You've completed the game!")
-    expect(page).to have_css("a.favorites")
+    expect(page).to have_css("a.play")
   end
 
 end

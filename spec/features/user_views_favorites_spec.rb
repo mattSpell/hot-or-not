@@ -4,7 +4,7 @@ feature "User views their favorites" do
     visit '/'
     click_on "facebook"
     click_on "Favorites"
-    expect(page).to have_text("You don't have any favorites yet!")
+    expect(page).to have_text("You don't have any favorites!")
     expect(page).to have_css("a.play")
   end
   let!(:user){ Fabricate(:user) }
