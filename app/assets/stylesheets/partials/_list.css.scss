@@ -1,4 +1,5 @@
 .list-homes-container{
+  @include omega;
   @include span-columns(6);
   background-color: white;
   // height: 98%;
@@ -13,4 +14,28 @@ h2{
   height: 6em;
   width: 6em;
   border-radius: 50%;
+}
+
+// RESPONSIVENESS
+
+@media screen and (max-device-width: 550px) {
+  .list-homes-container{
+    @include span-columns(10);
+    border-radius: 15px;
+    margin: 35% 0 0 8%;
+    font-size: 30px;
+  }
+}
+
+// .list-homes-container{
+//   @include media($mobile) {
+//     @include span-columns(12);
+//   }
+// }
+
+.list-homes-container{
+  @include media($mid) {
+    @include span-columns(10);
+    margin: 5% 0 0 7.5%;
+  }
 }

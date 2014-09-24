@@ -1,0 +1,4 @@
+@import "neat/neat-helpers";
+
+$mobile: new-breakpoint(max-width 480px 12);
+$mid: new-breakpoint(max-width 855px 12);

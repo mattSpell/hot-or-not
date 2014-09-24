@@ -2,41 +2,41 @@
   @include outer-container;
   margin-top: 5%;
   height: 60%;
-  .game-play-container{
-    @include span-columns(6);
-    background-color: white;
-    height: 98%;
-    border-radius: 5px;
-    padding-top: 8%;
-    margin: 0 auto 0 auto;
-    text-align: center;
+}
+.game-play-container{
+  @include span-columns(6);
+  background-color: white;
+  height: 98%;
+  border-radius: 5px;
+  padding-top: 8%;
+  margin: 0 1em 0 auto;
+  text-align: center;
 
-    h3.list-price{
-      margin: 1em 0 1em 0;
-    }
-    p.addy, p.desc{
-      padding: 0 2em 0 2em;
-    }
-    img.thumbnail{
-      display: block;
-      margin: 0 auto 3% auto;
-      border-radius: 5px;
-    }
-    .fav-container{
-      margin-top: 6em;
-    }
-    .play{
-      @include thoughtbot;
-      margin: 1em;
-      padding-left: 2em;
-      padding-right: 2em;
-    }
+  h3.list-price{
+    margin: 1em 0 1em 0;
+  }
+  p.addy, p.desc{
+    padding: 0 2em 0 2em;
+  }
+  img.thumbnail{
+    display: block;
+    margin: 0 auto 3% auto;
+    border-radius: 5px;
+  }
+  .fav-container{
+    margin-top: 6em;
+  }
+  .play{
+    @include thoughtbot;
+    margin: 1em;
+    padding-left: 2em;
+    padding-right: 2em;
   }
 }
 
 .controls-container{
   text-align: center;
-  margin-top: 8em;
+  margin-top: 9em;
   li{
     display: inline;
     margin: 0 4% 0 4%;
@@ -48,12 +48,45 @@
     margin: 0 auto 0 auto;
     border-radius: 50%;
   }
-  a.hot:hover{
-    // background-color: rgb(186, 21, 23);
+  a.hot, a.not{
     background-color: white;
   }
+  a.hot:hover{
+    background-color: rgb(186, 21, 23);
+  }
   a.not:hover{
-    // background-color: rgb(60, 141, 197);
-    background-color: white;
+    background-color: rgb(60, 141, 197);
+  }
+}
+// RESPONSIVENESS=========
+@media screen and (max-device-width: 550px) {
+  .game-play-container{
+    @include span-columns(10);
+    height: 18em;
+    font-size: 30px;
+    border-radius: 15px;
+    margin: 10% 0 0 8%;
+    h3.list-price{
+      margin: 1em 0 0.5em 0;
+    }
+    img.thumbnail{
+      // width: 10em;
+      height: 15em;
+      border-radius: 10px;
+    }
+    .controls-container{
+      margin-top: 4.5em;
+    }
+
+  }
+}
+
+.game-play-container{
+  @include media($mid) {
+    @include span-columns(10);
+    margin: 1em 0 8em 7.5%;
+    .controls-container{
+      margin-top: 10.5em;
+    }
   }
 }

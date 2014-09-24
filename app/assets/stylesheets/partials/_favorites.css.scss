@@ -3,9 +3,6 @@
   @include outer-container;
   text-align: center;
 }
-h1.favs{
-  // color: white;
-}
 img.thumbnail{
   border-radius: 5px;
   max-height: 100px;
@@ -41,4 +38,17 @@ a.nuke:hover{
 }
 .address{
   width: 16em;
+}
+
+@media screen and (max-device-width: 550px) {
+  h1.favs{
+    font-size: 90px;
+  }
+  .fav-box{
+    font-size: 30px;
+    // @include span-columns(12);
+  }
+  img.thumbnail, .fav-box{
+    border-radius: 15px;
+  }
 }

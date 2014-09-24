@@ -2,13 +2,13 @@
 #
 # It's helpful, but not entirely necessary to understand cron before proceeding.
 # http://en.wikipedia.org/wiki/Cron
-
+require 'whenever'
 # Example:
 #
 # set :output, "/path/to/my/cron_log.log"
 #
-every 1.day, :at => '2:00 am' do
-  runner "HomeScraper.new('http://www.homefinder.com/TN/Nashville/').find_homes"
+every 1.day, :at => '5:15 pm' do
+  runner "HomeScraper.new('http://www.homefinder.com/TN/Nashville/').find_homes", :output => 'cron.log'
 end
 #
 # every 4.days do

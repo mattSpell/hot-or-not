@@ -1,4 +1,6 @@
 @import "partials/mixins";
+@import "partials/game";
+@import "partials/list";
 
 body{
   @include background-image(asset-url("bg_2x.jpg"));
@@ -64,4 +66,36 @@ body{
 }
 .social{
   color: white;
+}
+
+// RESPONSIVENESS =============
+@media screen and (max-device-width: 450px) {
+  .game-play-container, .list-homes-container{
+    @include span-columns(12);
+  }
+  .social-container{
+    @include span-columns(8);
+    margin: 50% 0 0 40%;
+  }
+  .logo-container{
+    font-size: 30px;
+  }
+}
+
+.social-container{
+  @include media($mid) {
+    img{
+      @include span-columns(4);
+    }
+    margin: 30% 0 0 50%;
+  }
+}
+
+.social-container{
+  @include media($mobile) {
+    margin: 15% 0 0 30%;
+    img{
+      @include span-columns(4);
+    }
+  }
 }
