@@ -17,7 +17,7 @@
 /config/database.yml
 /config/oauth.yml
 .env
-Procfile
+
 
 # Ignore application configuration
 /config/application.yml
