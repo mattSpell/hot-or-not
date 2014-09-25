@@ -63,3 +63,4 @@
 	from /Users/mattspell/.rvm/rubies/ruby-2.1.2/lib/ruby/2.1.0/rubygems/core_ext/kernel_require.rb:55:in `require'
 	from /Users/mattspell/.rvm/rubies/ruby-2.1.2/lib/ruby/2.1.0/rubygems/core_ext/kernel_require.rb:55:in `require'
 	from -e:1:in `<main>'
+WARNING: Use strings for Figaro configuration. 274309366111755 was converted to "274309366111755".

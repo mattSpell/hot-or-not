@@ -15,7 +15,7 @@ gem 'devise'
 gem 'haml'
 gem 'pry'
 gem 'figaro'
-gem 'whenever', :require => false
+gem 'unicorn'
 
 # Bundle edge Rails instead: gem 'rails', github: 'rails/rails'
 gem 'rails', '4.1.4'
