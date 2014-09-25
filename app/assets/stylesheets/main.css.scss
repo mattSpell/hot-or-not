@@ -112,7 +112,8 @@ form ~ a{
 
 @media only screen and (-webkit-min-device-pixel-ratio: 1.3), only screen and (min--moz-device-pixel-ratio: 1.3), only screen and (-o-min-device-pixel-ratio: 1.3 / 1), only screen and (min-resolution: 125dpi), only screen and (min-resolution: 1.3dppx) {
   body {
-    background-image: url(bg_2x.jpg);
-    // background-size: 32px 20px; }
+    @include background-image(asset-url("bg_2x.jpg"));
+    // background-image: url(bg_2x.jpg);
+    // background-size: 32px 20px;
   }
 }
