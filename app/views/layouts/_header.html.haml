@@ -22,11 +22,3 @@
     .navigation-tools
       - if user_signed_in?
         %a= link_to "Sign Out", destroy_user_session_path, :method => :delete, :class => "logout"
-      -#   - if current_user.name
-      -#     %p.name Signed in as: #{current_user.name}
-      -#   - else
-      -#     %p.name Signed in as: #{current_user.email}
-      -#   %a= link_to "Sign Out", destroy_user_session_path, :method => :delete
-      -# - else
-      -#   %a.sign-up{:href => new_user_registration_path} Sign Up
-      -#   %a.sign-up{:href => new_user_session_path} Sign In

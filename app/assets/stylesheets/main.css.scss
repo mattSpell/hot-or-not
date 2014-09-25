@@ -3,10 +3,9 @@
 @import "partials/list";
 
 body{
-  @include background-image(asset-url("bg_2x.jpg"));
+  @include background-image(asset-url("bg.jpg"));
   background-attachment: fixed;
   height: 780px;
-  // background-repeat: no-repeat;
   background-size: cover;
   -moz-background-size: cover;
   background-position: center;
@@ -14,8 +13,6 @@ body{
 
 .logo-container{
   text-align: center;
-  // margin-left: auto;
-  // margin-right: auto;
 }
 .main-logo{
   margin: 0px;
@@ -36,7 +33,6 @@ body{
   margin-top: 8em;
   li{
     display: inline;
-    // margin: 0 2em 0 2em;
     font-size: 2em;
     a{
       @include thoughtbot;
@@ -66,6 +62,16 @@ body{
 }
 .social{
   color: white;
+}
+form.new_user{
+  @include outer-container;
+  width: 50%;
+  background-color: white;
+  padding: 2em;
+  border-radius: 10px;
+}
+form ~ a{
+  display: none;
 }
 
 // RESPONSIVENESS =============

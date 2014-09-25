@@ -2,7 +2,6 @@
   @include omega;
   @include span-columns(6);
   background-color: white;
-  // height: 98%;
   border-radius: 5px;
   padding: 2em;
   text-align: center;
@@ -26,12 +25,6 @@ h2{
     font-size: 30px;
   }
 }
-
-// .list-homes-container{
-//   @include media($mobile) {
-//     @include span-columns(12);
-//   }
-// }
 
 .list-homes-container{
   @include media($mid) {
