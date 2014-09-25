@@ -4,5 +4,12 @@ rvm:
   - jruby-18mode # JRuby in 1.8 mode
   - jruby-19mode # JRuby in 1.9 mode
   - rbx
-# uncomment this line if your project needs to run something other than `rake`:
-# script: bundle exec rspec spec
+addons:
+  postgresql: "9.3"
+
+before_script:
+  - cp config/database.yml.example config/database.yml
+  - cp config/application.travis.yml config/application.yml
+  - psql -c 'create database hotornot_test;' -U postgres
+
+script: 'bundle exec rake'
