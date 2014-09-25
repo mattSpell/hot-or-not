@@ -1,3 +1,5 @@
+[![Build Status](https://travis-ci.org/mattSpell/hot-or-not.svg?branch=master)](https://travis-ci.org/mattSpell/hot-or-not)
+[![Test Coverage](https://codeclimate.com/github/mattSpell/hot-or-not/badges/coverage.svg)](https://codeclimate.com/github/mattSpell/hot-or-not)
 #Hot or Not: Nashville Home Edition
 
 This is my Ruby/Rails capstone project for Nashville Software School.
@@ -10,16 +12,18 @@ You can play if your a serious home shopper or just for fun!
 Clone this repo, copy the config/application.yml.example, rename it to
 application.yml and put in your facebook/twitter keys/secrets.
 
-##Technologies used:
+### Technologies used:
 - Ruby 2.1.2
 - AJAX
 - Nokogiri
 - open-uri
 - Sass/Bourbon/Bitters/Neat
-- OmniAuth
+- Devise/OmniAuth
+- RSpec/Capybara/VCR/Webmock
 
 
-## License
+
+### License
 The MIT License (MIT)
 
 Copyright (c) 2014 Eliza Marcum
