@@ -47,6 +47,8 @@ group :development, :test do
   gem 'foreman'
 end
 
+gem "codeclimate-test-reporter", group: :test, require: nil
+
 group :test do
   gem 'capybara'
   gem 'capybara-webkit'

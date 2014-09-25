@@ -308,24 +308,23 @@ header.navigation {
 // RESPONSIVENESS===========
 @media screen and (max-device-width: 500px) {
   $navigation-height: 150px;
-  li.nav-link{
-    font-size: 40px;
-    margin: 0px;
-    padding: 0px;
-    width: 1em;
+  $horizontal-bar-mode: 501px;
+  $large-screen: em(860);
+  header.navigation .navigation-menu-button{
+    @include media ($horizontal-bar-mode) {
+      display: block;
+      height: 60px;
+      width: 63.109375px;
+    }
   }
-  header.navigation{
-    height: 150px;
+  .nav > ul#navigation-menu{
+    display: block;
+    margin-left: auto;
+    margin-right: auto;
+    width: 100%;
   }
-  li.nav-link > a.logout{
-    font-size: 40px;
-    color: white;
-    margin: 0px;
-    padding: 0px;
-    width: 1em;
-  }
-  .navigation-tools > .logout{
-    font-size: 40px;
-  }
+  .navigation-tools{
+    clear: both;
 
+  }
 }

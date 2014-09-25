@@ -7,4 +7,4 @@ addons:
 before_script:
   - psql -c 'create database hotornot_test;' -U postgres
 
-script: 'bundle exec rake'
+script: 'CODECLIMATE_REPO_TOKEN=4071671b853044bfddfc7b3ee18e5b4d5c06ff730f545e08816f12877877fdf5 bundle exec rake'
