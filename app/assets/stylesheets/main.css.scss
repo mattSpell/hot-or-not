@@ -114,9 +114,8 @@ form ~ a{
       height: 4em;
     }
   }
-  .social-container{
-    @include span-columns(8);
-    margin-top: -100px;
+  body .social-container{
+    margin-top: -80px;
   }
   // FAVORITES=============
   .favorites-container{
