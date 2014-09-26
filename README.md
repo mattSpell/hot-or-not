@@ -11,6 +11,8 @@ You can play if you're a serious home shopper or just for fun!
 ### Usage:
 Clone this repo, copy the config/application.yml.example, rename it to
 application.yml and put in your facebook/twitter keys/secrets.
+These keys can be obtained at https://developers.facebook.com/ and https://dev.twitter.com/.
+Please note that the method to scrape the web for home listings is in a rake task which I have set up on Heroku scheduler.
 
 ### Technologies used:
 - Ruby 2.1.2
