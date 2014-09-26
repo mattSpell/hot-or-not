@@ -5,8 +5,8 @@
 This is my Ruby/Rails capstone project for Nashville Software School.
 The app is a real estate game where you choose Nashville home listings that you think are hot or not.
 The ones that you mark as "hot" get saved as favorites.
-You can then view your favorits and delete them.
-You can play if your a serious home shopper or just for fun!
+You can then view your favorites and delete them.
+You can play if you're a serious home shopper or just for fun!
 
 ### Usage:
 Clone this repo, copy the config/application.yml.example, rename it to
