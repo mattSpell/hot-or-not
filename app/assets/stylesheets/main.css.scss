@@ -75,7 +75,7 @@ form ~ a{
 }
 
 // RESPONSIVENESS =============
-// MOBILE=============
+// PHONE=============
 @media screen and (max-device-width: 500px) {
   body{
     @include background-image(asset-url("bg-sm.jpg"));
@@ -118,8 +118,34 @@ form ~ a{
     @include span-columns(8);
     margin-top: -100px;
   }
+  // FAVORITES=============
+  .favorites-container{
+    h1, h1.favs{
+      font-size: 20px;
+      margin-top: 2em;
+    }
+    .fav-box{
+      width: 80%;
+      .mplay{
+        margin: 0px;
+      }
+      .list-price{
+        font-size: 20px;
+      }
+      p{
+        width: 90%;
+        margin-left: auto;
+        margin-right: auto;
+      }
+      p, .mnuke{
+        font-size: 15px;
+      }
+
+    }
+  }
 }
-// END MOBILE================
+
+// END PHONE================
 
 .social-container{
   @include media($mid) {
