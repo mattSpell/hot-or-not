@@ -75,22 +75,51 @@ form ~ a{
 }
 
 // RESPONSIVENESS =============
+// MOBILE=============
 @media screen and (max-device-width: 500px) {
   body{
     @include background-image(asset-url("bg-sm.jpg"));
+    .logo-container{
+      margin-top: 4em;
+      margin-bottom: 0px;
+      font-size: 10px;
+    }
+  }
+  .game-play-container, .list-homes-container{
+    .list-price{
+      font-size: 20px;
+    }
+    p.addy, p.desc{
+      font-size: 16px;
+    }
+    .game-box > .controls-container{
+      margin-top: 1.5em !important;
+      a, img{
+        width: 3em;
+        height: 3em;
+      }
+    }
+  }
+  body > .game > .game-play-container{
+    height: 10em;
   }
 
-  .game-play-container, .list-homes-container{
-    @include span-columns(12);
+  body .game .list-homes-container{
+    margin-top: -3em;
+    .home-list h2{
+      font-size: 25px;
+    }
+    img{
+      width: 4em;
+      height: 4em;
+    }
   }
   .social-container{
     @include span-columns(8);
-    margin: 50% 0 0 40%;
-  }
-  .logo-container{
-    font-size: 30px;
+    margin-top: -100px;
   }
 }
+// END MOBILE================
 
 .social-container{
   @include media($mid) {
@@ -98,6 +127,15 @@ form ~ a{
       @include span-columns(4);
     }
     margin: 30% 0 0 50%;
+  }
+}
+
+.game > .game-play-container{
+  @include media($mid) {
+    height: 25em;
+    .controls-container{
+      margin-top: 7.2em;
+    }
   }
 }
 
@@ -110,10 +148,24 @@ form ~ a{
   }
 }
 
-@media only screen and (-webkit-min-device-pixel-ratio: 1.3), only screen and (min--moz-device-pixel-ratio: 1.3), only screen and (-o-min-device-pixel-ratio: 1.3 / 1), only screen and (min-resolution: 125dpi), only screen and (min-resolution: 1.3dppx) {
+.button-container{
+  @include media($mobile) {
+    li{
+      display: block;
+      margin: 2em;
+      a.play{
+        margin-left: 1em;
+      }
+    }
+  }
+}
+
+@media only screen and (-webkit-min-device-pixel-ratio: 1.3),
+       only screen and (min--moz-device-pixel-ratio: 1.3),
+       only screen and (-o-min-device-pixel-ratio: 1.3 / 1),
+       only screen and (min-resolution: 125dpi),
+       only screen and (min-resolution: 1.3dppx) {
   body {
     @include background-image(asset-url("bg_2x.jpg"));
-    // background-image: url(bg_2x.jpg);
-    // background-size: 32px 20px;
   }
 }
