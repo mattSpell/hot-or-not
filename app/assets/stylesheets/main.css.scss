@@ -85,6 +85,10 @@ form ~ a{
       font-size: 10px;
     }
   }
+
+  form.new_user{
+    width: 90%;
+  }
   .game-play-container, .list-homes-container{
     .list-price{
       font-size: 20px;
@@ -105,6 +109,7 @@ form ~ a{
   }
 
   body .game .list-homes-container{
+    display: none;
     margin-top: -3em;
     .home-list h2{
       font-size: 25px;
