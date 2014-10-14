@@ -48,6 +48,9 @@
     margin: 0 auto 0 auto;
     border-radius: 50%;
   }
+  img{
+    max-height: 100%;
+  }
   a.hot, a.not{
     background-color: white;
   }
@@ -70,7 +73,6 @@
       margin: 1em 0 0.5em 0;
     }
     img.thumbnail{
-      // width: 10em;
       height: 15em;
       border-radius: 10px;
     }
